@@ -571,3 +571,7 @@ button:hover {
   background: white;
   border-radius: 8px;
 }
+
+.map-container {
+  height: 400px;
+}
