@@ -16,6 +16,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import { useCart } from "./CartContext"; // Move the import to the top
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -36,11 +37,10 @@ const Navbar = () => {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
     },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
   ];
+
+  const { cartItems } = useCart(); // Correct placement of useCart hook
+
   return (
     <nav>
       <div className="nav-logo-container">
@@ -53,6 +53,7 @@ const Navbar = () => {
         <a href="">Contact</a>
         <a href="">
           <BsCart2 className="navbar-cart-icon" />
+          <span className="cart-count">{cartItems}</span>
         </a>
         <button className="primary-button">Bookings Now</button>
       </div>
