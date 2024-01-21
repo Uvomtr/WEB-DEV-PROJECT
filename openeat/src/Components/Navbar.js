@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+// Navbar.js
 import React, { useState } from "react";
 import Logo from "./Assets/Logo.svg";
 import { BsCart2 } from "react-icons/bs";
@@ -16,10 +16,14 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
-import { useCart } from "./CartContext"; // Move the import to the top
+import { useCart } from "./CartContext";
+import Modal from "./BookingModal"; // Import your BookingModal component
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const [openBookingModal, setOpenBookingModal] = useState(false);
+  const { cartItems } = useCart();
+
   const menuOptions = [
     {
       text: "Home",
@@ -39,7 +43,13 @@ const Navbar = () => {
     },
   ];
 
-  const { cartItems } = useCart(); // Correct placement of useCart hook
+  const handleBookingButtonClick = () => {
+    setOpenBookingModal(true);
+  };
+
+  const closeBookingModal = () => {
+    setOpenBookingModal(false);
+  };
 
   return (
     <nav>
@@ -47,15 +57,17 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
-        <a href="">
+        <a href="#">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#testimonial-section">Testimonials</a>
+        <a href="#contact-section">Contact</a>
+        <a href="#">
           <BsCart2 className="navbar-cart-icon" />
-          <span className="cart-count">{cartItems}</span>
+          <span className="cart-count">{cartItems.length}</span>
         </a>
-        <button className="primary-button">Bookings Now</button>
+        <button className="primary-button" onClick={handleBookingButtonClick}>
+          Bookings Now
+        </button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -80,6 +92,12 @@ const Navbar = () => {
           <Divider />
         </Box>
       </Drawer>
+      <Modal open={openBookingModal} onClose={closeBookingModal}>
+        {/* Your Booking Modal Content Goes Here */}
+        <h2>Booking Information</h2>
+        {/* Include fields for delivery address, etc. */}
+        <button onClick={closeBookingModal}>Close</button>
+      </Modal>
     </nav>
   );
 };

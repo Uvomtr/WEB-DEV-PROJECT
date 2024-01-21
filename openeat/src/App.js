@@ -6,6 +6,7 @@ import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
 import BookingForm from "./Components/BookingForm";
 import Footer from "./Components/Footer";
+import Map from "./Components/Map"; // Import the Map component
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Work />
       <Testimonial />
       <Contact />
+      <Map /> {/* Include the Map component */}
       <BookingForm />
       <Footer />
     </div>
