@@ -1,5 +1,4 @@
-// Navbar.js
-import React, { useState } from "react";
+import React, { useState, useContext } from "react"; // Add useContext to the import statement
 import Logo from "./Assets/Logo.svg";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
@@ -16,13 +15,10 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
-import { useCart } from "./CartContext";
 import Modal from "./BookingModal"; // Import your BookingModal component
-
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const [openBookingModal, setOpenBookingModal] = useState(false);
-  const { cartItems } = useCart();
 
   const menuOptions = [
     {
@@ -51,6 +47,12 @@ const Navbar = () => {
     setOpenBookingModal(false);
   };
 
+  // Add the following code to include the shopping cart in the navigation bar
+  const handleCartClick = () => {
+    // Implement the logic to open the cart or navigate to the cart page
+    console.log("Cart clicked");
+  };
+
   return (
     <nav>
       <div className="nav-logo-container">
@@ -61,10 +63,9 @@ const Navbar = () => {
         <a href="#about-section">About</a>
         <a href="#testimonial-section">Testimonials</a>
         <a href="#contact-section">Contact</a>
-        <a href="#">
-          <BsCart2 className="navbar-cart-icon" />
-          <span className="cart-count">{cartItems.length}</span>
-        </a>
+        <button onClick={handleCartClick}>
+          <ShoppingCartRoundedIcon className="navbar-cart-icon" />
+        </button>
         <button className="primary-button" onClick={handleBookingButtonClick}>
           Bookings Now
         </button>
