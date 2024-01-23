@@ -23,13 +23,15 @@ const About = () => {
               Food Is An Important Part Of A Balanced Diet
             </h1>
             <p className="primary-text">
-              Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-              elit. Dolor turpis molestie dui magnis facilisis at fringilla
-              quam.
+              A go-to website for finding the best local food options. Upon
+              opening the website, not only do you encounter a curated selection
+              of top-rated restaurants, but you also have the ability to
+              customize your preferences.
             </p>
             <p className="primary-text">
-              Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-              facilisis at fringilla quam.
+              With intuitive filters, you can exclude specific types of cuisine
+              or ingredients you don't want, ensuring that the recommendations
+              align perfectly with your culinary preferences.
             </p>
             <div className="about-buttons-container">
               <button className="secondary-button">Learn More</button>
