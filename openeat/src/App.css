@@ -29,6 +29,10 @@ nav {
   justify-content: space-between;
   min-height: 90px;
 }
+.nav-logo {
+  width: 100px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+}
 .navbar-menu-container {
   display: none;
 }

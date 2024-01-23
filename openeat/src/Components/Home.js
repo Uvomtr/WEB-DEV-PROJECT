@@ -21,9 +21,9 @@ const Home = () => {
               Healthy switcher chefs do all the prep work, like peeding,
               chopping & marinating, so you can cook a fresh food.
             </p>
-            <button className="secondary-button">
-              Order Now <FiArrowRight />{" "}
-            </button>
+            <a href="#menu-section" className="secondary-button">
+              Order Now <FiArrowRight />
+            </a>
           </div>
           <div className="home-image-section">
             <img src={BannerImage} alt="" />
