@@ -24,9 +24,7 @@ const About = () => {
             </h1>
             <p className="primary-text">
               A go-to website for finding the best local food options. Upon
-              opening the website, not only do you encounter a curated selection
-              of top-rated restaurants, but you also have the ability to
-              customize your preferences.
+              opening the website,
             </p>
             <p className="primary-text">
               With intuitive filters, you can exclude specific types of cuisine
