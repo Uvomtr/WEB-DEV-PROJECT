@@ -18,11 +18,8 @@ const Home = () => {
               Your Favourite Food Delivered Hot & Fresh
             </h1>
             <p className="primary-text">
-              Our user-friendly interface lets you personalize your culinary
-              journey with intuitive filters, allowing you to exclude unwanted
-              cuisines or ingredients. Elevate your dining adventures by
-              exploring a tailored selection that aligns seamlessly with your
-              palate.
+              Elevate your dining adventures by exploring a tailored selection
+              that aligns seamlessly with your palate.
             </p>
             <a href="#menu-section" className="secondary-button">
               Order Now <FiArrowRight />
