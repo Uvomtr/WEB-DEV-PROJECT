@@ -90,7 +90,7 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Mary Doe</h2>
+              <h2>Aliah Mhae</h2>
             </div>
           </div>
         </div>
