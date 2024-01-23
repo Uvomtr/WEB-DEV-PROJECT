@@ -14,7 +14,7 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+            Your Top Rated Restaurant. FRESH, HOT, and DELICIOUS!
           </h1>
           <p className="primary-text">
             Healthy switcher chefs do all the prep work, like peeding, chopping
