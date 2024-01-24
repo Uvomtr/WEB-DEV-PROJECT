@@ -29,8 +29,7 @@ const About = () => {
               customize your preferences.
             </p>
             <p className="primary-text">
-              With intuitive filters, you can exclude specific types of cuisine
-              or ingredients you don't want, ensuring that the recommendations
+            Easily refine your search using filters, including specific restaurant types like Asian, European, and International, ensuring recommendations match your taste preferences perfectly.mendations
               align perfectly with your culinary preferences.
             </p>
             <div className="about-buttons-container">

@@ -15,7 +15,7 @@ const Home = () => {
           </div>
           <div className="home-text-section">
             <h1 className="primary-heading">
-              Your Favourite Food Delivered Hot & Fresh
+            Top-Rated Eats, Exceptional Treats!
             </h1>
             <p className="primary-text">
               Elevate your dining adventures by exploring a tailored selection

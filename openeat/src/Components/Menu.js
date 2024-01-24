@@ -266,6 +266,7 @@ const Menu = () => {
     <div id="menu-section">
       <div className="restau-title">
         <label>Restaurant</label>
+        <p>Discover Our Best Picks!</p>
       </div>
       <div className="menu-container">
         <div className="menu-filters">
