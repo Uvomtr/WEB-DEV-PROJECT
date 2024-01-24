@@ -127,8 +127,8 @@ const foodItems = [
   },
   {
     id: 16,
-    name: "Jolibee",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Toyo Eatery",
+    description: "Toyo Eatery, Chef Jordy Navarra's modern Filipino restaurant, has become pivotal in pushing the envelope of our nation's cuisine.",
     image: "burger.jpg",
     price: 10.99,
     category: "beef",
