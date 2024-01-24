@@ -29,7 +29,7 @@ const foodItems = [
     description:
       "Blackbird at The Nielson Tower is a fine dining institution with art deco interiors, world-class service, and refined international cuisine.",
     image: "burger.jpg",
-    location: 68,
+    location: "Nielson Tower Ayala Triangle, Makati Avenue, Makati City, Metro Manila",
     category: "asian",
   },
   {
