@@ -68,7 +68,7 @@ const Cart = ({ cartItems, clearCart }) => {
               handleProceedToPayment={handleProceedToPayment}
             />
           )}
-          <p>Total: ${getTotalPrice()}</p>
+          {/*<p>Total: ${getTotalPrice()}</p>*/}
           {/*<button onClick={handleClearCart}>Clear Cart</button>*/}
 
           {/* Confirmation dialog for clearing the cart */}
