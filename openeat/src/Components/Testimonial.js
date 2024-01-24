@@ -42,11 +42,7 @@ const Testimonial = () => {
             {/* Testimonial 2 */}
             <div className="testimonial-card">
               <img src={ProfilePic2} alt="Jane Doe" />
-              <p>
-                "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non
-                et elit. Dolor turpis molestie dui magnis facilisis at fringilla
-                quam."
-              </p>
+              <p>"A food lover that explores different cuisines."</p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
                 <AiFillStar />
@@ -62,9 +58,7 @@ const Testimonial = () => {
             <div className="testimonial-card">
               <img src={ProfilePic3} alt="Bob Doe" />
               <p>
-                "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non
-                et elit. Dolor turpis molestie dui magnis facilisis at fringilla
-                quam."
+                "I am passionate about cooking and love to explore new foods."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
@@ -80,11 +74,7 @@ const Testimonial = () => {
             {/* Testimonial 4 */}
             <div className="testimonial-card">
               <img src={ProfilePic4} alt="Mary Doe" />
-              <p>
-                "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non
-                et elit. Dolor turpis molestie dui magnis facilisis at fringilla
-                quam."
-              </p>
+              <p>"An IT Student that loves to enjoy foods"</p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
                 <AiFillStar />
