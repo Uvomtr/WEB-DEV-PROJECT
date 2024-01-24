@@ -8,6 +8,7 @@ import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
 import Metronome from "./Restaurants/Metronome.png";
+import Modan from "./Restaurants/Modan.png";
 
 const foodItems = [
   {
