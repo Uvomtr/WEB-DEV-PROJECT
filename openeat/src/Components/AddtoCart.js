@@ -4,16 +4,6 @@ import React, { useState } from "react";
 const AddToCart = ({ item, addToCart }) => {
   const [quantity, setQuantity] = useState(1);
 
-  const handleIncrement = () => {
-    setQuantity(quantity + 1);
-  };
-
-  const handleDecrement = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
-    }
-  };
-
   const handleAddToCart = () => {
     // Call the addToCart function passed as a prop in Menu.js
     addToCart(item, quantity);
