@@ -110,7 +110,7 @@ const foodItems = [
     description:
       "Mecha Uma is a modern Japanese omakase experience, showcasing Chef Bruce Ricketts' culinary excellence.",
     image: "burger.jpg",
-    location: 10.99,
+    location: "G/F RCBC Building, 25th Street corner 6th Avenue, BGC, Taguig City, Metro Manila",
     category: "japanese",
   },
   {
