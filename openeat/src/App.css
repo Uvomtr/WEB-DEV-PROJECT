@@ -328,6 +328,13 @@ button {
   margin: 1rem;
 }
 
+h3 {
+  margin: 1rem;
+  font-size: 16px;
+  color: #f39c12;
+  text-align: left;
+}
+
 h2 {
   margin: 1rem;
   font-size: 16px;
