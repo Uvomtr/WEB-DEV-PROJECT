@@ -135,8 +135,8 @@ const foodItems = [
   },
   {
     id: 17,
-    name: "Mcdo",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Tsukiji",
+    description: "Tsukiji sets the benchmark for top-tier Japanese cuisine, featuring fresh seafood flown in from the eponymous Tsukiji Fish Market.",
     image: "burger.jpg",
     price: 10.99,
     category: "beef",
