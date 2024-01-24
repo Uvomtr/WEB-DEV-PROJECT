@@ -55,8 +55,8 @@ const foodItems = [
   },
   {
     id: 7,
-    name: "Market Cafe",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Hapag",
+    description: "Hapag is a modern Filipino restaurant known for creative takes on familiar dishes while proudly showcasing native ingredients.",
     image: "burger.jpg",
     price: 2143142,
     category: "beef",
