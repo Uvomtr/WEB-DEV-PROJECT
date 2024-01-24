@@ -10,7 +10,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
 const Map = () => {
-  const centerOfManila = [14.5995, 120.9842]; // Center of Manila, Philippines
+  const centerOfManila = [14.5995, 120.9842];
   const fenceBounds = [
     [19.41, 116.8],
     [4.64, 126.6],
