@@ -233,7 +233,7 @@ const Menu = () => {
               <img src={item.image} alt={item.name} />
               <h3>{item.name}</h3>
               <p>{item.description}</p>
-              <p>Price: ${item.price}</p>
+              <p>Price: php{item.price}</p>
               <AddToCart item={item} addToCart={addToCart} />
             </div>
           ))}
