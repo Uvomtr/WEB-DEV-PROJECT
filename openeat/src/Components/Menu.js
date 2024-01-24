@@ -103,8 +103,8 @@ const foodItems = [
   },
   {
     id: 13,
-    name: "SUshi",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Metiz",
+    description: "Metiz champions Filipino ingredients and local producers through modern dishes grounded in memories of regional flavors.",
     image: "burger.jpg",
     price: 10.99,
     category: "others",
