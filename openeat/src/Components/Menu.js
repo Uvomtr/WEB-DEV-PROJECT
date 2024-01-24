@@ -11,6 +11,7 @@ import Blackbird from "./Restaurants/Blackbird.png";
 import ChinaBlue from "./Restaurants/China Blue.png";
 import Gallery from "./Restaurants/Gallery.png";
 import Hapag from "./Restaurants/Hapag.png";
+import Helm from "./Restaurants/Helm.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
@@ -95,7 +96,7 @@ const foodItems = [
     name: "Helm",
     description:
       "Helm by Josh Boutwood promises a true chef's table experience with Chef Josh Boutwood's creative prowess.",
-    image: "burger.jpg",
+    image: Helm,
     location:
       "2/F The Plaza Arya Residences Tower, 2 McKinley Parkway, BGC, Taguig, Metro Manila",
     category: "international",
