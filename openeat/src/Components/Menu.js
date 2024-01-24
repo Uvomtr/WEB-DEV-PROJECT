@@ -13,6 +13,7 @@ import Toyo from "./Restaurants/Toyo Eatery.png";
 import Tsukiji from "./Restaurants/Tsukiji.png";
 import Txanton from "./Restaurants/Txanton.png";
 import Txoko from "./Restaurants/Txoko Asador.png";
+import Wagyu from "./Restaurants/Wagyu Studio.png";
 
 const foodItems = [
   {
@@ -181,7 +182,7 @@ const foodItems = [
     name: "Txoko Asador",
     description:
       "Txoko Asador presents utterly delicious and truly brilliant renditions of popular Spanish dishes.",
-    image: "burger.jpg",
+    image: Txoko,
     location: "G/F Erlag Building, 102 Esteban Street, Legazpi Village, Makati City, Metro Manila",
     category: "european",
   },
