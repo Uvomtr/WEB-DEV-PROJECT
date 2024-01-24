@@ -24,8 +24,6 @@ const AddToCart = ({ item, addToCart }) => {
   return (
     <div>
       <p>Quantity: {quantity}</p>
-      <button onClick={handleDecrement}>-</button>
-      <button onClick={handleIncrement}>+</button>
       <button onClick={handleAddToCart}>Add to Cart</button>
     </div>
   );
