@@ -6,6 +6,7 @@ const OrderReview = ({
   cartItems,
   handleEditOrder,
   handleProceedToPayment,
+  handleCloseOrderReview, // New function to handle closing the order review
 }) => {
   return (
     <div className="order-review-popup">
@@ -19,6 +20,7 @@ const OrderReview = ({
       </ul>
       <button onClick={handleEditOrder}>Edit Order</button>
       <button onClick={handleProceedToPayment}>Proceed to Payment</button>
+      <button onClick={handleCloseOrderReview}>Close</button>
     </div>
   );
 };
