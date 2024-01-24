@@ -11,7 +11,7 @@ const Testimonial = () => {
       <div id="testimonial-section">
         <div className="work-section-wrapper">
           <div className="work-section-top">
-            <p className="primary-subheading">Testimonials</p>
+            <p className="primary-subheading">Profiles</p>
             <h1 className="primary-heading">What They Are Saying</h1>
             <p className="primary-text">
               Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
