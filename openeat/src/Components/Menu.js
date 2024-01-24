@@ -87,8 +87,8 @@ const foodItems = [
   },
   {
     id: 11,
-    name: "Crispy pata",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "M Dining",
+    description: "M Dining is a no-brainer choice for an exquisite meal in an elegant restaurant, where Chef Tom Bascon’s Asian inflexions on European cuisine shine.",
     image: "burger.jpg",
     price: 10.99,
     category: "pork",
