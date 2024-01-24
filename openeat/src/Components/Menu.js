@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./Menu.css";
 import AddToCart from "./AddtoCart";
 import Cart from "./Cart";
+import "./Assets/loc-logo.png";
 
 const foodItems = [
   {
@@ -10,7 +11,7 @@ const foodItems = [
     name: "A Mano",
     description: "A Mano has become a Metro Manila staple, offering an enticing blend of authentic and exciting Italian specialties.",
     image: "./AMMano.png",
-    location: 19,
+    location: "R1 Power Plant Mall, Rockwell Center, Makati City, Metro Manila",
     category: "european",
   },
   {
