@@ -45,7 +45,7 @@ nav {
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
-  background-color: white;
+  background-color: #f6f6f6;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -58,7 +58,7 @@ nav {
   font-size: 1.15rem;
 }
 .primary-button:hover {
-  background-color: rgb(234, 234, 234);
+  background-color: #2a6663;
 }
 .navbar-menu-container svg {
   font-size: 1.5rem;
@@ -99,6 +99,8 @@ nav {
   color: #6a6a6a;
   margin: 1.5rem 0rem;
 }
+
+/*------------------ Order Now */
 .secondary-button {
   padding: 1rem 2.5rem;
   background-color: #fe9e0d;
@@ -529,7 +531,7 @@ h2 {
 
 /* Styles for the popup content */
 .booking-popup-content {
-  background: #fff;
+  background: #f6f6f6;
   padding: 20px;
   max-width: 400px;
   text-align: center;
