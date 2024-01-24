@@ -9,7 +9,7 @@ const foodItems = [
     id: 1,
     name: "Burger King",
     description: "Delicious beef burger with cheese and vegetables.",
-    image: "burger.jpg",
+    image: '/assets/salad.jpg',
     price: 19,
     category: "beef",
   },
