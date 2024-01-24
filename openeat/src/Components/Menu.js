@@ -12,6 +12,7 @@ import ChinaBlue from "./Restaurants/China Blue.png";
 import Gallery from "./Restaurants/Gallery.png";
 import Hapag from "./Restaurants/Hapag.png";
 import Helm from "./Restaurants/Helm.png";
+import Kazunori from "./Restaurants/Kazunori.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
@@ -106,7 +107,7 @@ const foodItems = [
     name: "Kazunori",
     description:
       "Kazunori is a Japanese staple guaranteeing satisfaction, whether for a quick lunch, casual dinner, or a memorable omakase experience.",
-    image: "burger.jpg",
+    image: Kazunori,
     location:
       "G/F Mazda Makati Building, 2301 Chino Roces Avenue Extension, Makati City, Metro Manila",
     category: "asian",
