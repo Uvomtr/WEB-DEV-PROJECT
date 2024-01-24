@@ -71,8 +71,8 @@ const foodItems = [
   },
   {
     id: 9,
-    name: "Bistro Remedios",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Kazunori",
+    description: "Kazunori is a Japanese staple guaranteeing satisfaction, whether for a quick lunch, casual dinner, or a memorable omakase experience.",
     image: "burger.jpg",
     price: 23,
     category: "pork",
