@@ -1,0 +1,23 @@
+/* Menu.css */
+.menu-container {
+  text-align: center;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}

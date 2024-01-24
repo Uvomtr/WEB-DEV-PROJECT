@@ -1,7 +1,5 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import Logo from "./Assets/Logo.svg";
-import { BsCart2 } from "react-icons/bs";
+import Logo from "./Assets/Logo.png";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -15,10 +13,12 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import Modal from "./BookingModal";
 
-const Navbar = () => {
+function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
+  const [openBookingModal, setOpenBookingModal] = useState(false);
+
   const menuOptions = [
     {
       text: "Home",
@@ -36,25 +36,31 @@ const Navbar = () => {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
     },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
   ];
+
+  const handleBookingButtonClick = () => {
+    setOpenBookingModal(true);
+  };
+
+  const closeBookingModal = () => {
+    setOpenBookingModal(false);
+  };
+
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="Logo" className="nav-logo" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Bookings Now</button>
+        <a href="#home-section">Home</a>
+        <a href="#menu-section">Menu</a>
+        <a href="#about-section">About</a>
+        <a href="#testimonial-section">Testimonials</a>
+        <a href="#contact-section">Contact</a>
+
+        <button className="primary-button" onClick={handleBookingButtonClick}>
+          Bookings Now
+        </button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -79,8 +85,12 @@ const Navbar = () => {
           <Divider />
         </Box>
       </Drawer>
+      <Modal open={openBookingModal} onClose={closeBookingModal}>
+        <h2>Booking Information</h2>
+        <button onClick={closeBookingModal}>Close</button>
+      </Modal>
     </nav>
   );
-};
+}
 
 export default Navbar;
