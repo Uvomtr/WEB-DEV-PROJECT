@@ -36,7 +36,7 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Ryan Araneta</h2>
+              <h2>Ryan Joshua T. Araneta</h2>
               <h2>BSIT-NS 3A</h2>
             </div>
 
@@ -55,7 +55,7 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Kristel Mae Espanillo</h2>
+              <h2>Kristel Mae G. Espanillo</h2>
               <h2>BSIT-NS 3A</h2>
             </div>
 
@@ -74,7 +74,7 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Christine Joy Galicia</h2>
+              <h2>Christine Joy P. Galicia</h2>
               <h2>BSIT-NS 3A</h2>
             </div>
 
