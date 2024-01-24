@@ -31,8 +31,8 @@ const foodItems = [
   },
   {
     id: 4,
-    name: "Ilustrado Restaurant",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Benjarong",
+    description: "Benjarong stands as a cherished establishment, offering authentic Thai cuisine and now presenting creative, modern tasting menus.",
     image: "burger.jpg",
     price: 250,
     category: "beef",
