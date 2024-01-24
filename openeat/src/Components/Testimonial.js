@@ -1,8 +1,8 @@
 import React from "react";
-import ProfilePic1 from "./Profile/Araneta.png";
-import ProfilePic2 from "./Profile/Espanillo.png";
-import ProfilePic3 from "./Profile/Galicia.png";
-import ProfilePic4 from "./Profile/Yaba.png";
+import ProfilePic1 from "./Testimonials/Profile_1.png";
+import ProfilePic2 from "./Testimonials/Profile_1.png";
+import ProfilePic3 from "./Testimonials/Profile_1.png";
+import ProfilePic4 from "./Testimonials/Profile_1.png";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
