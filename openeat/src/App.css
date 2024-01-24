@@ -286,8 +286,9 @@ button {
 
 .testimonial-section {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  justify-content: space-between;
 }
 
 .testimonial-card {
@@ -323,10 +324,11 @@ button {
   display: flex;
   gap: 3px;
   color: #f39c12;
+  margin: 1rem;
 }
 
 h2 {
-  margin: 0;
+  margin: 1rem;
   font-size: 16px;
   color: #f39c12;
   text-align: right;
