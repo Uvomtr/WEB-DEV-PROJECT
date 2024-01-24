@@ -10,6 +10,7 @@ import Benjarong from "./Restaurants/Benjarong.png";
 import Blackbird from "./Restaurants/Blackbird.png";
 import ChinaBlue from "./Restaurants/China Blue.png";
 import Gallery from "./Restaurants/Gallery.png";
+import Hapag from "./Restaurants/Hapag.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
@@ -85,7 +86,7 @@ const foodItems = [
     name: "Hapag",
     description:
       "Hapag is a modern Filipino restaurant known for creative takes on familiar dishes while proudly showcasing native ingredients.",
-    image: "burger.jpg",
+    image: Hapag,
     location: "201 Katipunan Avenue, Quezon City, Metro Manila",
     category: "asian",
   },
