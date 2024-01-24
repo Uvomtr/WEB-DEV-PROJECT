@@ -7,6 +7,7 @@ import "./Assets/loc-logo.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
+import Metronome from "./Restaurants/Metronome.png";
 
 const foodItems = [
   {
@@ -121,7 +122,7 @@ const foodItems = [
     name: "Metiz",
     description:
       "Metiz champions Filipino ingredients and local producers through modern dishes grounded in memories of regional flavors.",
-    image: "burger.jpg",
+    image: Metiz,
     location: "G/F Building A Karrivin Plaza, 2316 Chino Roces Avenue Extension, Makati City, Metro Manila",
     category: "asian",
   },
