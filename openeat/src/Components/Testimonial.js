@@ -24,7 +24,7 @@ const Testimonial = () => {
             {/* Testimonial 1 */}
             <div className="testimonial-card">
               <img src={ProfilePic1} alt="John Doe" />
-              <h4>Hapag</h4>
+              <h3>Hapag</h3>
               <p>
                 "Hapag is a must-try when in Manila. Make reservations and
                 prepare for a feast. Expect 10+ servings of traditional Filipino
@@ -44,7 +44,7 @@ const Testimonial = () => {
             {/* Testimonial 2 */}
             <div className="testimonial-card">
               <img src={ProfilePic2} alt="Jane Doe" />
-              <h4>A Mano</h4>
+              <h3>A Mano</h3>
               <p>"I really liked the food here at A mano !</p>
               <p>
                 They served freshly baked pizza and the dessert panna cota was
@@ -64,7 +64,7 @@ const Testimonial = () => {
             {/* Testimonial 3 */}
             <div className="testimonial-card">
               <img src={ProfilePic3} alt="Bob Doe" />
-              <h4>Gallery by Chele</h4>
+              <h3>Gallery by Chele</h3>
               <p>
                 "We had an impeccable 10 course. The every dish was a top dish
                 from the past 10 years. Chele is worth a visit to everyone
@@ -84,7 +84,7 @@ const Testimonial = () => {
             {/* Testimonial 4 */}
             <div className="testimonial-card">
               <img src={ProfilePic4} alt="Mary Doe" />
-              <h4>Antonio's</h4>
+              <h3>Antonio's</h3>
               <p>
                 "We had a great lunch at Antonio’s- the atmosphere and vibes are
                 exceptional , the food and the service was superlative. Their
