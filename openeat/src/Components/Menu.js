@@ -63,8 +63,8 @@ const foodItems = [
   },
   {
     id: 8,
-    name: "Cafe Adriatico",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Helm",
+    description: "Helm by Josh Boutwood promises a true chef's table experience with Chef Josh Boutwood's creative prowess.",
     image: "burger.jpg",
     price: 213,
     category: "beef",
