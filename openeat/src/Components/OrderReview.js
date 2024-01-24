@@ -1,11 +1,12 @@
 // OrderReview.js
 import React from "react";
-import "./OrderReview.css"; // Add a separate CSS file for styling
+import "./OrderReview.css";
 
 const OrderReview = ({
   cartItems,
   handleEditOrder,
   handleProceedToPayment,
+  handleCloseOrderReview,
 }) => {
   return (
     <div className="order-review-popup">
@@ -19,6 +20,7 @@ const OrderReview = ({
       </ul>
       <button onClick={handleEditOrder}>Edit Order</button>
       <button onClick={handleProceedToPayment}>Proceed to Payment</button>
+      <button onClick={handleCloseOrderReview}>Close</button>
     </div>
   );
 };
