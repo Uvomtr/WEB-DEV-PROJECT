@@ -6,6 +6,7 @@ import Cart from "./Cart";
 import "./Assets/loc-logo.png";
 import Amano from "./Restaurants/Amano.png";
 import Antonio from "./Restaurants/Antonio's.png";
+import Benjarong from "./Restaurants/Benjarong.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
@@ -32,7 +33,7 @@ const foodItems = [
     name: "Antonio's",
     description:
       "Antonio's is a culinary gem in Tagaytay City, known for delivering an exceptional dining experience in a charming setting.",
-    image: "burger.jpg",
+    image: Antonio,
     location: "Purok 138, Tagaytay City, Cavite",
     category: "international",
   },
@@ -41,7 +42,7 @@ const foodItems = [
     name: "Blackbird at The Nielson Tower",
     description:
       "Blackbird at The Nielson Tower is a fine dining institution with art deco interiors, world-class service, and refined international cuisine.",
-    image: "burger.jpg",
+    image: Benjarong,
     location:
       "Nielson Tower Ayala Triangle, Makati Avenue, Makati City, Metro Manila",
     category: "asian",
