@@ -9,6 +9,7 @@ import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
 import Metronome from "./Restaurants/Metronome.png";
 import Modan from "./Restaurants/Modan.png";
+import Toyo from "./Restaurants/Toyo Eatery.png";
 
 const foodItems = [
   {
