@@ -8,9 +8,8 @@ const foodItems = [
   {
     id: 1,
     name: "A Mano",
-    description:
-      "A Mano has become a Metro Manila staple, offering an enticing blend of authentic and exciting Italian specialties.",
-    image: "AMMano.png",
+    description: "A Mano has become a Metro Manila staple, offering an enticing blend of authentic and exciting Italian specialties.",
+    image: "./AMMano.png",
     location: 19,
     category: "european",
   },
