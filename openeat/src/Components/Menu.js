@@ -39,8 +39,8 @@ const foodItems = [
   },
   {
     id: 5,
-    name: "Yurakuen Japanese Restaurant ",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "China Blue",
+    description: "China Blue by Jereme Leung is a stylish establishment offering artful, innovative, and undeniably delicious modern Chinese fare.",
     image: "burger.jpg",
     price: 300,
     category: "beef",
