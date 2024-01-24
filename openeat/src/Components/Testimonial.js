@@ -45,11 +45,11 @@ const Testimonial = () => {
             <div className="testimonial-card">
               <img src={ProfilePic2} alt="Jane Doe" />
               <h3>A Mano</h3>
+              <p>"I really liked the food here at A mano !</p>
               <p>
-                "I really liked the food here at A mano ! They served freshly
-                baked pizza and the dessert panna cota was just to die for. I
-                highly recommend this restaurant to all those likes pizza or
-                italian food."
+                They served freshly baked pizza and the dessert panna cota was
+                just to die for. I highly recommend this restaurant to all those
+                likes pizza or italian food."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
@@ -66,10 +66,10 @@ const Testimonial = () => {
               <img src={ProfilePic3} alt="Bob Doe" />
               <h3>Gallery by Chele</h3>
               <p>
-                "We had an impeccable 10 course. The interesting part was that
-                every dish was a top dish from the past 10 years. Chele is worth
-                a visit to everyone celebrating an occasion, visitors of Manila
-                must check this venture into the Philippines cuisine."
+                "We had an impeccable 10 course. The every dish was a top dish
+                from the past 10 years. Chele is worth a visit to everyone
+                celebrating an occasion, visitors of Manila must check this
+                venture into the Philippines cuisine."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
@@ -78,7 +78,7 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Christine Joy P. Galicia</h2>
+              <h2>Christoph Garcia</h2>
             </div>
 
             {/* Testimonial 4 */}
@@ -86,10 +86,10 @@ const Testimonial = () => {
               <img src={ProfilePic4} alt="Mary Doe" />
               <h3>Antonio's</h3>
               <p>
-                "We had a great lunch at Antonio’s- the ambiance, the food and
-                the service was superlative. Their lamb was soft and juicy; the
-                burrata was delightful and the crepes suzette was really a
-                special treat."
+                "We had a great lunch at Antonio’s- the atmosphere and vibes are
+                exceptional , the food and the service was superlative. Their
+                lamb was soft and juicy; the burrata was delightful and the
+                crepes suzette was really a special treat."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
