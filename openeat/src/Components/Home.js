@@ -18,8 +18,8 @@ const Home = () => {
               Your Favourite Food Delivered Hot & Fresh
             </h1>
             <p className="primary-text">
-              Healthy switcher chefs do all the prep work, like peeding,
-              chopping & marinating, so you can cook a fresh food.
+              Elevate your dining adventures by exploring a tailored selection
+              that aligns seamlessly with your palate.
             </p>
             <a href="#menu-section" className="secondary-button">
               Order Now <FiArrowRight />
