@@ -1,8 +1,8 @@
 import React from "react";
-import ProfilePic1 from "./Assets/john-doe-image.png";
-import ProfilePic2 from "./Assets/john-doe-image.png";
-import ProfilePic3 from "./Assets/john-doe-image.png";
-import ProfilePic4 from "./Assets/john-doe-image.png";
+import ProfilePic1 from "./Profile/Araneta.png";
+import ProfilePic2 from "./Profile/Espanillo.png";
+import ProfilePic3 from "./Profile/Galicia.png";
+import ProfilePic4 from "./Profile/Yaba.png";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
@@ -11,8 +11,8 @@ const Testimonial = () => {
       <div id="testimonial-section">
         <div className="work-section-wrapper">
           <div className="work-section-top">
-            <p className="primary-subheading">Testimonials</p>
-            <h1 className="primary-heading">What They Are Saying</h1>
+            <p className="primary-subheading">Profiles</p>
+            <h1 className="primary-heading">Team Profiles</h1>
             <p className="primary-text">
               Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
               elit. Dolor turpis molestie dui magnis facilisis at fringilla
@@ -25,9 +25,8 @@ const Testimonial = () => {
             <div className="testimonial-card">
               <img src={ProfilePic1} alt="John Doe" />
               <p>
-                "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non
-                et elit. Dolor turpis molestie dui magnis facilisis at fringilla
-                quam."
+                "Enthusiastic IT student with a deep passion for all things
+                tech."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
@@ -36,18 +35,14 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Ryan Araneta</h2>
+              <h2>Ryan Joshua T. Araneta</h2>
               <h2>BSIT-NS 3A</h2>
             </div>
 
             {/* Testimonial 2 */}
             <div className="testimonial-card">
               <img src={ProfilePic2} alt="Jane Doe" />
-              <p>
-                "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non
-                et elit. Dolor turpis molestie dui magnis facilisis at fringilla
-                quam."
-              </p>
+              <p>"A food lover that explores different cuisines."</p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
                 <AiFillStar />
@@ -55,7 +50,7 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Kristel Mae Espanillo</h2>
+              <h2>Kristel Mae G. Espanillo</h2>
               <h2>BSIT-NS 3A</h2>
             </div>
 
@@ -63,9 +58,7 @@ const Testimonial = () => {
             <div className="testimonial-card">
               <img src={ProfilePic3} alt="Bob Doe" />
               <p>
-                "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non
-                et elit. Dolor turpis molestie dui magnis facilisis at fringilla
-                quam."
+                "I am passionate about cooking and love to explore new foods."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
@@ -74,18 +67,14 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Christine Joy Galicia</h2>
+              <h2>Christine Joy P. Galicia</h2>
               <h2>BSIT-NS 3A</h2>
             </div>
 
             {/* Testimonial 4 */}
             <div className="testimonial-card">
               <img src={ProfilePic4} alt="Mary Doe" />
-              <p>
-                "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non
-                et elit. Dolor turpis molestie dui magnis facilisis at fringilla
-                quam."
-              </p>
+              <p>"An IT Student that loves to enjoy foods"</p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
                 <AiFillStar />
