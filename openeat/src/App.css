@@ -288,6 +288,7 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  justify-content: space-between;
 }
 
 .testimonial-card {
@@ -296,6 +297,7 @@ button {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  padding: 1rem;
 }
 
 .testimonial-card:hover {
@@ -323,12 +325,21 @@ button {
   display: flex;
   gap: 3px;
   color: #f39c12;
+  margin: 1rem;
+}
+
+h3 {
+  margin: 1rem;
+  font-size: 16px;
+  color: #f39c12;
+  text-align: left;
 }
 
 h2 {
-  margin: 0;
+  margin: 1rem;
   font-size: 16px;
-  color: #333;
+  color: #f39c12;
+  text-align: right;
 }
 
 .work-section-wrapper {
