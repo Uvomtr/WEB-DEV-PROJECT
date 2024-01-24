@@ -7,9 +7,9 @@ import Cart from "./Cart";
 const foodItems = [
   {
     id: 1,
-    name: "Harbor View Restaurant",
+    name: "A Mano",
     description: "Delicious beef burger with cheese and vegetables.",
-    image: "logo.png",
+    image: "A Mano.jpg",
     price: 19,
     category: "beef",
   },
