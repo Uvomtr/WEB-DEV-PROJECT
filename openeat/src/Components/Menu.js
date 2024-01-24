@@ -212,6 +212,11 @@ const Menu = () => {
 
   return (
     <div id="menu-section">
+      <div className="restau-title">
+        <label>
+          Restaurant
+        </label>
+      </div>
       <div className="menu-container">
         <div className="menu-filters">
           <label>
