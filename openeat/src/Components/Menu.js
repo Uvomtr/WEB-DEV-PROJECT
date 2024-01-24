@@ -8,7 +8,7 @@ const foodItems = [
   {
     id: 1,
     name: "A Mano",
-    description: "Delicious beef burger with cheese and vegetables.",
+    description: "A Mano has become a Metro Manila staple, offering an enticing blend of authentic and exciting Italian specialties.",
     image: "AMMano.png",
     price: 19,
     category: "beef",
