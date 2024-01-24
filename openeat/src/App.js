@@ -9,7 +9,8 @@ import Footer from "./Components/Footer";
 import Map from "./Components/Map"; // Import the Map component
 
 function App() {
- 
+  return (
+    <div className="App">
       <Home />
       <About />
       <Menu />
