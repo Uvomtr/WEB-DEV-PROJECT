@@ -47,7 +47,7 @@ const foodItems = [
     description:
       "China Blue by Jereme Leung is a stylish establishment offering artful, innovative, and undeniably delicious modern Chinese fare.",
     image: "burger.jpg",
-    location: 300,
+    location: "3/F Conrad Manila, Mall of Asia Complex, Pasay City, Metro Manila",
     category: "asian",
   },
   {
