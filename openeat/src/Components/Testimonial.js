@@ -44,6 +44,7 @@ const Testimonial = () => {
             {/* Testimonial 2 */}
             <div className="testimonial-card">
               <img src={ProfilePic2} alt="Jane Doe" />
+              <h3>A Mano</h3>
               <p>
                 "I really liked the food here at A mano ! They served freshly
                 baked pizza and the dessert panna cota was just to die for."
