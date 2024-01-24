@@ -159,8 +159,8 @@ const foodItems = [
   },
   {
     id: 20,
-    name: "Pork",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Wagyu Studio",
+    description: "Wagyu Studio, an award-winning Japanese concept, places A5 Kobe beef in the spotlight, showcasing Chef Yoki Kitayama's creative and extravagant bites.",
     image: "burger.jpg",
     price: 350,
     category: "pork",
