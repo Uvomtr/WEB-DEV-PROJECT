@@ -79,8 +79,8 @@ const foodItems = [
   },
   {
     id: 10,
-    name: "Rado's Lechon",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Lusso",
+    description: "Lusso brings truly luxe French and Italian dishes to discerning patrons with Chef Margarita Forés’ signature touch.",
     image: "burger.jpg",
     price: 10.99,
     category: "beef",
