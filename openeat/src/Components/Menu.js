@@ -241,7 +241,6 @@ const Menu = () => {
           <label>
             Sort by:
             <select value={sortOption} onChange={handleOptionChange}>
-              <option value="name">Name</option>
               <option value="az">A-Z</option>
               <option value="za">Z-A</option>
             </select>
