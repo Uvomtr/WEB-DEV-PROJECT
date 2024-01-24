@@ -151,7 +151,7 @@ const foodItems = [
     name: "Toyo Eatery",
     description:
       "Toyo Eatery, Chef Jordy Navarra's modern Filipino restaurant, has become pivotal in pushing the envelope of our nation's cuisine.",
-    image: "burger.jpg",
+    image: Toyo,
     location: "The Alley at Karrivin, Karrivin Plaza, Chino Roces Avenue Ext, Makati City, Metro Manila",
     category: "asian",
   },
