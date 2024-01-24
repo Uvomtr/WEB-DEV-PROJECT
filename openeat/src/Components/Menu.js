@@ -48,7 +48,7 @@ const foodItems = [
   {
     id: 6,
     name: "Gallery",
-    description: "Gallery by Chele is Chef Chele Gonzalez’s signature dining destination, showcasing a fusion of Filipino produce, sustainable practices, and global techniques.",
+    description: "Gallery is Chef Chele Gonzalez’s signature dining destination, showcasing a fusion of Filipino produce, sustainable practices, and global techniques.",
     image: "burger.jpg",
     price: 100,
     category: "international",
