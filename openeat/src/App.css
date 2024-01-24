@@ -337,8 +337,8 @@ h3 {
 }
 
 h2 {
-  margin: 1rem;
-  font-size: 16px;
+  margin: 1.3rem;
+  font-size: 20px;
   color: #f39c12;
   text-align: right;
 }
@@ -360,7 +360,7 @@ h2 {
   flex-direction: column;
 }
 .work-section-info {
-  width: 290px;
+  width: 300px;
   min-height: 350px;
   background-color: white;
   padding: 1rem 2rem;
@@ -372,12 +372,15 @@ h2 {
   border-radius: 1rem;
   color: #505050;
   margin: 1rem 2rem;
+
+
 }
 .work-section-info h2 {
   margin: 1rem 0rem;
+  
 }
 .work-section-bottom {
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -388,6 +391,7 @@ h2 {
   display: flex;
   align-items: center;
   font-weight: 600;
+  
 }
 
 @media (max-width: 1000px) {
