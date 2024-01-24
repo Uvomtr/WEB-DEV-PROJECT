@@ -143,8 +143,8 @@ const foodItems = [
   },
   {
     id: 18,
-    name: "Bonchon",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Txanton",
+    description: "Txanton offers a jamón tasting experience, paired with delectable wines and hearty mains to complement the flavors.",
     image: "burger.jpg",
     price: 10.99,
     category: "pork",
