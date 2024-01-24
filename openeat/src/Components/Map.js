@@ -52,7 +52,7 @@ const Map = () => {
   };
 
   const restaurantIcon = new L.Icon({
-    iconUrl: "path/to/restaurant-icon.png", // Replace with the path to your restaurant icon
+    iconUrl: "path/to/restaurant-icon.png",
     iconSize: [32, 32],
     iconAnchor: [16, 32],
     popupAnchor: [0, -32],
