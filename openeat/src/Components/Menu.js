@@ -101,7 +101,7 @@ const foodItems = [
     description:
       "M Dining is a no-brainer choice for an exquisite meal in an elegant restaurant, where Chef Tom Bascon’s Asian inflexions on European cuisine shine.",
     image: "burger.jpg",
-    location: 10.99,
+    location: "3/F Alegria Alta Building, 2294 Pasong Tamo Extension, Makati City, Metro Manila",
     category: "european",
   },
   {
