@@ -6,7 +6,7 @@ const OrderReview = ({
   cartItems,
   handleEditOrder,
   handleProceedToPayment,
-  handleCloseOrderReview, // New function to handle closing the order review
+  handleCloseOrderReview,
 }) => {
   return (
     <div className="order-review-popup">
