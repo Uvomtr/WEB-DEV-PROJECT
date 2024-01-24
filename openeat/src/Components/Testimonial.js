@@ -64,8 +64,12 @@ const Testimonial = () => {
             {/* Testimonial 3 */}
             <div className="testimonial-card">
               <img src={ProfilePic3} alt="Bob Doe" />
+              <h3>Gallery by Chele</h3>
               <p>
-                "I am passionate about cooking and love to explore new foods."
+                "We had an impeccable 10 course. The interesting part was that
+                every dish was a top dish from the past 10 years. Chele is worth
+                a visit to everyone celebrating an occasion, visitors of Manila
+                must check this venture into the Philippines cuisine."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
@@ -80,7 +84,13 @@ const Testimonial = () => {
             {/* Testimonial 4 */}
             <div className="testimonial-card">
               <img src={ProfilePic4} alt="Mary Doe" />
-              <p>"An IT Student that loves to enjoy foods"</p>
+              <h3>Antonio's</h3>
+              <p>
+                "We had a great lunch at Antonio’s- the ambiance, the food and
+                the service was superlative. Their lamb was soft and juicy; the
+                burrata was delightful and the crepes suzette was really a
+                special treat."
+              </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
                 <AiFillStar />
@@ -88,7 +98,7 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Aliah Mhae F. Yaba</h2>
+              <h2>Tesa Agcaoili</h2>
             </div>
           </div>
         </div>
