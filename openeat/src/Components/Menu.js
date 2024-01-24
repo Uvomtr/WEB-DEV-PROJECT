@@ -47,8 +47,8 @@ const foodItems = [
   },
   {
     id: 6,
-    name: "9 SPOONS",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Gallery",
+    description: "Gallery by Chele is Chef Chele Gonzalez’s signature dining destination, showcasing a fusion of Filipino produce, sustainable practices, and global techniques.",
     image: "burger.jpg",
     price: 100,
     category: "beef",
