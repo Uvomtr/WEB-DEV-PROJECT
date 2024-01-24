@@ -14,6 +14,7 @@ function App() {
       <Home />
       <About />
       <Menu />
+      <Work />
       <Testimonial />
       <Contact />
       <Map /> {/* Include the Map component */}
