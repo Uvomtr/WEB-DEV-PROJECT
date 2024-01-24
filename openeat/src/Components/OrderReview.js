@@ -1,6 +1,6 @@
 // OrderReview.js
 import React from "react";
-import "./OrderReview.css"; // Add a separate CSS file for styling
+import "./OrderReview.css";
 
 const OrderReview = ({
   cartItems,
