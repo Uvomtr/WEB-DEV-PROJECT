@@ -161,7 +161,7 @@ const foodItems = [
     name: "Tsukiji",
     description:
       "Tsukiji sets the benchmark for top-tier Japanese cuisine, featuring fresh seafood flown in from the eponymous Tsukiji Fish Market.",
-    image: "burger.jpg",
+    image: Tsukiji,
     location: "3/F Milky Way Building, 900 A. Arnaiz Avenue, Makati City, Metro Manila",
     category: "asian",
   },
