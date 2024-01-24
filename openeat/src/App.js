@@ -11,7 +11,6 @@ import Map from "./Components/Map"; // Import the Map component
 function App() {
   return (
     <div className="App">
-      <Home />
       <About />
       <Menu />
       <Work />
