@@ -45,7 +45,7 @@ nav {
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
-  background-color: white;
+  background-color: #f6f6f6;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -58,7 +58,7 @@ nav {
   font-size: 1.15rem;
 }
 .primary-button:hover {
-  background-color: rgb(234, 234, 234);
+  background-color: #2a6663;
 }
 .navbar-menu-container svg {
   font-size: 1.5rem;
@@ -99,6 +99,8 @@ nav {
   color: #6a6a6a;
   margin: 1.5rem 0rem;
 }
+
+/*------------------ Order Now */
 .secondary-button {
   padding: 1rem 2.5rem;
   background-color: #fe9e0d;
@@ -337,8 +339,8 @@ h3 {
 }
 
 h2 {
-  margin: 1rem;
-  font-size: 16px;
+  margin: 1.3rem;
+  font-size: 20px;
   color: #f39c12;
   text-align: right;
 }
@@ -360,7 +362,7 @@ h2 {
   flex-direction: column;
 }
 .work-section-info {
-  width: 290px;
+  width: 300px;
   min-height: 350px;
   background-color: white;
   padding: 1rem 2rem;
@@ -372,12 +374,15 @@ h2 {
   border-radius: 1rem;
   color: #505050;
   margin: 1rem 2rem;
+
+
 }
 .work-section-info h2 {
   margin: 1rem 0rem;
+  
 }
 .work-section-bottom {
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -388,6 +393,7 @@ h2 {
   display: flex;
   align-items: center;
   font-weight: 600;
+  
 }
 
 @media (max-width: 1000px) {
@@ -525,7 +531,7 @@ h2 {
 
 /* Styles for the popup content */
 .booking-popup-content {
-  background: #fff;
+  background: #f6f6f6;
   padding: 20px;
   max-width: 400px;
   text-align: center;
