@@ -11,7 +11,7 @@ const Testimonial = () => {
       <div id="testimonial-section">
         <div className="work-section-wrapper">
           <div className="work-section-top">
-            <p className="primary-subheading">Profiles</p>
+            <p className="primary-subheading">Testimonials</p>
             <h1 className="primary-heading">Team Profiles</h1>
             <p className="primary-text">
               Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
@@ -75,7 +75,7 @@ const Testimonial = () => {
             <div className="testimonial-card">
               <img src={ProfilePic4} alt="Mary Doe" />
               <p>"An IT Student that loves to enjoy foods"</p>
-              <div className="testimonials-stars-container">
+              <div className="testim onials-stars-container">
                 <AiFillStar />
                 <AiFillStar />
                 <AiFillStar />
