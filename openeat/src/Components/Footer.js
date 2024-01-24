@@ -12,11 +12,36 @@ const Footer = () => {
         <div className="footer-logo-container">
           <img src={Logo} alt="" />
         </div>
+        <h3>Follow us:</h3>
         <div className="footer-icons">
-          <BsTwitter />
-          <SiLinkedin />
-          <BsYoutube />
-          <FaFacebookF />
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsTwitter />
+          </a>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiLinkedin />
+          </a>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BsYoutube />
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebookF />
+          </a>
         </div>
       </div>
       <div className="footer-section-two">
@@ -24,15 +49,13 @@ const Footer = () => {
           <span>Quality</span>
           <span>Help</span>
           <span>Share</span>
-          <span>Carrers</span>
+          <span>Careers</span>
           <span>Testimonials</span>
           <span>Work</span>
         </div>
         <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>OpenEat.com</span>
-          <span>Eat@Open.com</span>
-          <span>Open@Eat.com</span>
+          <span>TUP Manila</span>
+          <span>openeat.IT@gmail.com</span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>

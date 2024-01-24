@@ -11,12 +11,11 @@ const Testimonial = () => {
       <div id="testimonial-section">
         <div className="work-section-wrapper">
           <div className="work-section-top">
-            <p className="primary-subheading">Testimonials</p>
+            <p className="primary-subheading">Reviews</p>
             <h1 className="primary-heading">What are they saying?</h1>
             <p className="primary-text">
-              Welcome to our Testimonial page, where real opinions meet real
-              experiences. Our customers are the heartbeat of our community, and
-              their thoughts matter.
+              Welcome to our review hub, where real opinions meet real
+              experiences. You're at the core of our community, and your thoughts truly matter.
             </p>
           </div>
 
