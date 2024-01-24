@@ -13,6 +13,7 @@ import Gallery from "./Restaurants/Gallery.png";
 import Hapag from "./Restaurants/Hapag.png";
 import Helm from "./Restaurants/Helm.png";
 import Kazunori from "./Restaurants/Kazunori.png";
+import Lusso from "./Restaurants/Lusso.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
@@ -117,7 +118,7 @@ const foodItems = [
     name: "Lusso",
     description:
       "Lusso brings truly luxe French and Italian dishes to discerning patrons with Chef Margarita Forés’ signature touch.",
-    image: "burger.jpg",
+    image: Lusso,
     location: "G/F Greenbelt 5, 174 Ayala Avenue, Makati City",
     category: "european",
   },
