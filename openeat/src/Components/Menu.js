@@ -119,7 +119,7 @@ const foodItems = [
     description:
       "Metiz champions Filipino ingredients and local producers through modern dishes grounded in memories of regional flavors.",
     image: "burger.jpg",
-    location: 10.99,
+    location: "G/F Building A Karrivin Plaza, 2316 Chino Roces Avenue Extension, Makati City, Metro Manila",
     category: "asian",
   },
   {
