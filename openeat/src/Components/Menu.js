@@ -10,7 +10,7 @@ const foodItems = [
     name: "A Mano",
     description: "A Mano has become a Metro Manila staple, offering an enticing blend of authentic and exciting Italian specialties.",
     image: "AMMano.png",
-    price: 19,
+    location: 19,
     category: "european",
   },
   {
@@ -18,7 +18,7 @@ const foodItems = [
     name: "Antonio's",
     description: "Antonio's is a culinary gem in Tagaytay City, known for delivering an exceptional dining experience in a charming setting.",
     image: "burger.jpg",
-    price: 55,
+    location: 55,
     category: "international",
   },
   {
@@ -26,7 +26,7 @@ const foodItems = [
     name: "Blackbird at The Nielson Tower",
     description: "Blackbird at The Nielson Tower is a fine dining institution with art deco interiors, world-class service, and refined international cuisine.",
     image: "burger.jpg",
-    price: 68,
+    location: 68,
     category: "asian",
   },
   {
@@ -34,7 +34,7 @@ const foodItems = [
     name: "Benjarong",
     description: "Benjarong stands as a cherished establishment, offering authentic Thai cuisine and now presenting creative, modern tasting menus.",
     image: "burger.jpg",
-    price: 250,
+    location: 250,
     category: "asian",
   },
   {
@@ -42,15 +42,15 @@ const foodItems = [
     name: "China Blue",
     description: "China Blue by Jereme Leung is a stylish establishment offering artful, innovative, and undeniably delicious modern Chinese fare.",
     image: "burger.jpg",
-    price: 300,
+    location: 300,
     category: "asian",
   },
   {
     id: 6,
     name: "Gallery",
-    description: "Gallery by Chele is Chef Chele Gonzalez’s signature dining destination, showcasing a fusion of Filipino produce, sustainable practices, and global techniques.",
+    description: "Gallery is Chef Chele Gonzalez’s signature dining destination, showcasing a fusion of Filipino produce, sustainable practices, and global techniques.",
     image: "burger.jpg",
-    price: 100,
+    location: 100,
     category: "international",
   },
   {
@@ -58,7 +58,7 @@ const foodItems = [
     name: "Hapag",
     description: "Hapag is a modern Filipino restaurant known for creative takes on familiar dishes while proudly showcasing native ingredients.",
     image: "burger.jpg",
-    price: 2143142,
+    location: 2143142,
     category: "asian",
   },
   {
@@ -66,7 +66,7 @@ const foodItems = [
     name: "Helm",
     description: "Helm by Josh Boutwood promises a true chef's table experience with Chef Josh Boutwood's creative prowess.",
     image: "burger.jpg",
-    price: 213,
+    location: 213,
     category: "international",
   },
   {
@@ -74,7 +74,7 @@ const foodItems = [
     name: "Kazunori",
     description: "Kazunori is a Japanese staple guaranteeing satisfaction, whether for a quick lunch, casual dinner, or a memorable omakase experience.",
     image: "burger.jpg",
-    price: 23,
+    location: 23,
     category: "asian",
   },
   {
@@ -82,7 +82,7 @@ const foodItems = [
     name: "Lusso",
     description: "Lusso brings truly luxe French and Italian dishes to discerning patrons with Chef Margarita Forés’ signature touch.",
     image: "burger.jpg",
-    price: 10.99,
+    location: 10.99,
     category: "european",
   },
   {
@@ -90,7 +90,7 @@ const foodItems = [
     name: "M Dining",
     description: "M Dining is a no-brainer choice for an exquisite meal in an elegant restaurant, where Chef Tom Bascon’s Asian inflexions on European cuisine shine.",
     image: "burger.jpg",
-    price: 10.99,
+    location: 10.99,
     category: "european",
   },
   {
@@ -98,7 +98,7 @@ const foodItems = [
     name: "Mecha Uma",
     description: "Mecha Uma is a modern Japanese omakase experience, showcasing Chef Bruce Ricketts' culinary excellence.",
     image: "burger.jpg",
-    price: 10.99,
+    location: 10.99,
     category: "japanese",
   },
   {
@@ -106,7 +106,7 @@ const foodItems = [
     name: "Metiz",
     description: "Metiz champions Filipino ingredients and local producers through modern dishes grounded in memories of regional flavors.",
     image: "burger.jpg",
-    price: 10.99,
+    location: 10.99,
     category: "asian",
   },
   {
@@ -114,7 +114,7 @@ const foodItems = [
     name: "Metronome",
     description: "Metronome, whether for hearty French bistro fare or a wildly creative tasting menu, never misses a beat at this eye-catching establishment.",
     image: "burger.jpg",
-    price: 20,
+    location: 20,
     category: "european",
   },
   {
@@ -122,7 +122,7 @@ const foodItems = [
     name: "Mōdan",
     description: "Mōdan presents a brilliant, highly personal modern Japanese tasting menu like no other under the expertise of Chef Jorge Mendez.",
     image: "burger.jpg",
-    price: 20,
+    location: 20,
     category: "asian",
   },
   {
@@ -130,7 +130,7 @@ const foodItems = [
     name: "Toyo Eatery",
     description: "Toyo Eatery, Chef Jordy Navarra's modern Filipino restaurant, has become pivotal in pushing the envelope of our nation's cuisine.",
     image: "burger.jpg",
-    price: 10.99,
+    location: 10.99,
     category: "asian",
   },
   {
@@ -138,7 +138,7 @@ const foodItems = [
     name: "Tsukiji",
     description: "Tsukiji sets the benchmark for top-tier Japanese cuisine, featuring fresh seafood flown in from the eponymous Tsukiji Fish Market.",
     image: "burger.jpg",
-    price: 10.99,
+    location: 10.99,
     category: "asian",
   },
   {
@@ -146,7 +146,7 @@ const foodItems = [
     name: "Txanton",
     description: "Txanton offers a jamón tasting experience, paired with delectable wines and hearty mains to complement the flavors.",
     image: "burger.jpg",
-    price: 10.99,
+    location: 10.99,
     category: "european",
   },
   {
@@ -154,7 +154,7 @@ const foodItems = [
     name: "Txoko Asador",
     description: "Txoko Asador presents utterly delicious and truly brilliant renditions of popular Spanish dishes.",
     image: "burger.jpg",
-    price: 2000,
+    location: 2000,
     category: "european",
   },
   {
@@ -162,7 +162,7 @@ const foodItems = [
     name: "Wagyu Studio",
     description: "Wagyu Studio, an award-winning Japanese concept, places A5 Kobe beef in the spotlight, showcasing Chef Yoki Kitayama's creative and extravagant bites.",
     image: "burger.jpg",
-    price: 350,
+    location: 350,
     category: "asian",
   },
 ];
@@ -240,7 +240,7 @@ const Menu = () => {
               <img src={item.image} alt={item.name} />
               <h3>{item.name}</h3>
               <p>{item.description}</p>
-              <p>Price: php{item.price}</p>
+              <p>Location: {item.location}</p>
               <AddToCart item={item} addToCart={addToCart} />
             </div>
           ))}
