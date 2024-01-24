@@ -92,7 +92,7 @@ const foodItems = [
     description:
       "Lusso brings truly luxe French and Italian dishes to discerning patrons with Chef Margarita Forés’ signature touch.",
     image: "burger.jpg",
-    location: 10.99,
+    location: "G/F Greenbelt 5, 174 Ayala Avenue, Makati City",
     category: "european",
   },
   {
