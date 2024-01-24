@@ -58,7 +58,7 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Kristel Mae G. Espanillo</h2>
+              <h2>Elle Rolf</h2>
             </div>
 
             {/* Testimonial 3 */}
