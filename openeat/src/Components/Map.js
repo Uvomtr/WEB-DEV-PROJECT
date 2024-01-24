@@ -7,7 +7,7 @@ import {
   Popup,
 } from "react-leaflet";
 import L from "leaflet";
-import "leaflet/dist/leaflet.css"; // Import the Leaflet CSS for styling
+import "leaflet/dist/leaflet.css";
 
 const Map = () => {
   const centerOfManila = [14.5995, 120.9842]; // Center of Manila, Philippines
