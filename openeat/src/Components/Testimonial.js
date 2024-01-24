@@ -26,8 +26,9 @@ const Testimonial = () => {
               <img src={ProfilePic1} alt="John Doe" />
               <h3>Aliah Mhae F. Yaba</h3>
               <p>
-                "Enthusiastic IT student with a deep passion for all things
-                tech."
+                "Hapag is a must-try when in Manila. Make reservations and
+                prepare for a feast. Expect 10+ servings of traditional Filipino
+                dishes reimagined with a modern twist."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
