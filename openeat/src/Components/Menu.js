@@ -15,8 +15,8 @@ const foodItems = [
   },
   {
     id: 2,
-    name: "The Aristocrat Restaurant",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Antonio's",
+    description: "Antonio's is a culinary gem in Tagaytay City, known for delivering an exceptional dining experience in a charming setting.",
     image: "burger.jpg",
     price: 55,
     category: "beef",
