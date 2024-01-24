@@ -25,9 +25,8 @@ const Testimonial = () => {
             <div className="testimonial-card">
               <img src={ProfilePic1} alt="John Doe" />
               <p>
-                "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non
-                et elit. Dolor turpis molestie dui magnis facilisis at fringilla
-                quam."
+                "Enthusiastic IT student with a deep passion for all things
+                tech."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
