@@ -9,7 +9,7 @@ const foodItems = [
     id: 1,
     name: "A Mano",
     description: "Delicious beef burger with cheese and vegetables.",
-    image: "A Mano.jpg",
+    image: "AMano.jpg",
     price: 19,
     category: "beef",
   },
