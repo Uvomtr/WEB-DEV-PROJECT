@@ -4,6 +4,7 @@ import "./Menu.css";
 import AddToCart from "./AddtoCart";
 import Cart from "./Cart";
 import "./Assets/loc-logo.png";
+import MDining from "./Restaurants/M Dining.png";
 
 const foodItems = [
   {
