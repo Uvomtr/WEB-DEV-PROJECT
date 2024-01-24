@@ -16,7 +16,6 @@ import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
-  const [openBookingModal, setOpenBookingModal] = useState(false);
 
   const menuOptions = [
     {
@@ -37,14 +36,6 @@ function Navbar() {
     },
   ];
 
-  const handleBookingButtonClick = () => {
-    setOpenBookingModal(true);
-  };
-
-  const closeBookingModal = () => {
-    setOpenBookingModal(false);
-  };
-
   return (
     <nav>
       <div className="nav-logo-container">
@@ -56,10 +47,6 @@ function Navbar() {
         <a href="#about-section">About</a>
         <a href="#testimonial-section">Testimonials</a>
         <a href="#contact-section">Contact</a>
-
-        <button className="primary-button" onClick={handleBookingButtonClick}>
-          Bookings Now
-        </button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
