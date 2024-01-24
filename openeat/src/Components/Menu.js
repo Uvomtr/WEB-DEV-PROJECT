@@ -1,7 +1,6 @@
 // Menu.js
 import React, { useState } from "react";
 import "./Menu.css";
-import AddToCart from "./AddtoCart";
 import "./Assets/loc-logo.png";
 import Amano from "./Restaurants/Amano.png";
 import Antonio from "./Restaurants/Antonio's.png";
