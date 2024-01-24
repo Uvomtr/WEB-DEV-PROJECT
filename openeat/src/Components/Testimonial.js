@@ -24,11 +24,12 @@ const Testimonial = () => {
             {/* Testimonial 1 */}
             <div className="testimonial-card">
               <img src={ProfilePic1} alt="John Doe" />
-              <h3>Aliah Mhae F. Yaba</h3>
+              <h3>Hapag</h3>
               <p>
                 "Hapag is a must-try when in Manila. Make reservations and
                 prepare for a feast. Expect 10+ servings of traditional Filipino
-                dishes reimagined with a modern twist."
+                dishes reimagined with a modern twist. I look forward to
+                visiting again when we return."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
@@ -37,13 +38,16 @@ const Testimonial = () => {
                 <AiFillStar />
                 <AiFillStar />
               </div>
-              <h2>Ryan Joshua T. Araneta</h2>
+              <h2>Danny Gamboa</h2>
             </div>
 
             {/* Testimonial 2 */}
             <div className="testimonial-card">
               <img src={ProfilePic2} alt="Jane Doe" />
-              <p>"A food lover that explores different cuisines."</p>
+              <p>
+                "I really liked the food here at A mano ! They served freshly
+                baked pizza and the dessert panna cota was just to die for."
+              </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
                 <AiFillStar />
