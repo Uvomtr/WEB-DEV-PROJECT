@@ -34,7 +34,6 @@ const Cart = ({ cartItems, clearCart }) => {
     // Implement logic to allow the customer to edit the order
     console.log("Editing Order...");
   };
-
   const handleProceedToPayment = () => {
     setOrderReviewOpen(false);
     handlePayment();
