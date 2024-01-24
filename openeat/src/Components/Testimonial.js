@@ -47,7 +47,9 @@ const Testimonial = () => {
               <h3>A Mano</h3>
               <p>
                 "I really liked the food here at A mano ! They served freshly
-                baked pizza and the dessert panna cota was just to die for."
+                baked pizza and the dessert panna cota was just to die for. I
+                highly recommend this restaurant to all those likes pizza or
+                italian food."
               </p>
               <div className="testimonials-stars-container">
                 <AiFillStar />
