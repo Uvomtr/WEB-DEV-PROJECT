@@ -46,7 +46,7 @@ const Cart = ({ cartItems, clearCart }) => {
 
   const confirmClearCart = () => {
     // Clear the cart and close the confirmation dialog
-    clearCart();
+    clearCart(); // Assuming clearCart resets the state to an empty array
     setClearCartDialogOpen(false);
   };
 
