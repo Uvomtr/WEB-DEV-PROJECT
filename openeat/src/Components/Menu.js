@@ -9,6 +9,7 @@ import Antonio from "./Restaurants/Antonio's.png";
 import Benjarong from "./Restaurants/Benjarong.png";
 import Blackbird from "./Restaurants/Blackbird.png";
 import ChinaBlue from "./Restaurants/China Blue.png";
+import Gallery from "./Restaurants/Gallery.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
@@ -74,7 +75,7 @@ const foodItems = [
     name: "Gallery",
     description:
       "Gallery by Chele is Chef Chele Gonzalez’s signature dining destination, showcasing a fusion of Filipino produce, sustainable practices, and global techniques.",
-    image: "burger.jpg",
+    image: Gallery,
     location:
       "5/F Clipp Center, 11th corner 39th Street, BGC, Taguig City, Metro Manila",
     category: "international",
