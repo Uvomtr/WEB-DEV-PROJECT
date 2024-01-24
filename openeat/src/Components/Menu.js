@@ -111,8 +111,8 @@ const foodItems = [
   },
   {
     id: 14,
-    name: "Sisig",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Metronome",
+    description: "Metronome, whether for hearty French bistro fare or a wildly creative tasting menu, never misses a beat at this eye-catching establishment.",
     image: "burger.jpg",
     price: 20,
     category: "pork",
