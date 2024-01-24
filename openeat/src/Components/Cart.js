@@ -1,7 +1,10 @@
-// Cart.js
-import React from "react";
+import React, { useState } from "react";
+import OrderReview from "./OrderReview";
 
-const Cart = ({ cartItems }) => {
+const Cart = ({ cartItems, clearCart }) => {
+  const [isOrderReviewOpen, setOrderReviewOpen] = useState(false);
+  const [isClearCartDialogOpen, setClearCartDialogOpen] = useState(false);
+
   const getTotalPrice = () => {
     return cartItems.reduce(
       (total, item) => total + item.price * item.quantity,
@@ -9,12 +12,48 @@ const Cart = ({ cartItems }) => {
     );
   };
 
-  const handlePayment = () => {
-    // Implement your payment logic here
-    // For now, let's just log the payment details
-    console.log("Payment Successful!");
-    console.log("Ordered Items:", cartItems);
-    console.log("Total Price:", getTotalPrice());
+  const handlePayment = async () => {
+    console.log("Processing payment...");
+
+    // Simulate an asynchronous payment process
+    try {
+      // Simulate a delay (e.g., contacting a payment gateway)
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+
+      // Payment successful
+      console.log("Payment Successful!");
+      console.log("Ordered Items:", cartItems);
+      console.log("Total Price:", getTotalPrice());
+    } catch (error) {
+      // Payment failed
+      console.error("Payment Failed:", error);
+    }
+  };
+
+  const handleEditOrder = () => {
+    // Implement logic to allow the customer to edit the order
+    console.log("Editing Order...");
+  };
+
+  const handleProceedToPayment = () => {
+    setOrderReviewOpen(false);
+    handlePayment();
+  };
+
+  const handleClearCart = () => {
+    // Show the confirmation dialog
+    setClearCartDialogOpen(true);
+  };
+
+  const confirmClearCart = () => {
+    // Clear the cart and close the confirmation dialog
+    clearCart();
+    setClearCartDialogOpen(false);
+  };
+
+  const cancelClearCart = () => {
+    // Close the confirmation dialog without clearing the cart
+    setClearCartDialogOpen(false);
   };
 
   return (
@@ -22,15 +61,25 @@ const Cart = ({ cartItems }) => {
       <h2>Shopping Cart</h2>
       {cartItems.length > 0 ? (
         <div>
-          <ul>
-            {cartItems.map((item) => (
-              <li key={item.id}>
-                {item.name} x{item.quantity} - ${item.price * item.quantity}
-              </li>
-            ))}
-          </ul>
+          <button onClick={() => setOrderReviewOpen(true)}>Review Order</button>
+          {isOrderReviewOpen && (
+            <OrderReview
+              cartItems={cartItems}
+              handleEditOrder={handleEditOrder}
+              handleProceedToPayment={handleProceedToPayment}
+            />
+          )}
           <p>Total: ${getTotalPrice()}</p>
-          <button onClick={handlePayment}>Proceed to Payment</button>
+          <button onClick={handleClearCart}>Clear Cart</button>
+
+          {/* Confirmation dialog for clearing the cart */}
+          {isClearCartDialogOpen && (
+            <div className="confirmation-dialog">
+              <p>Are you sure you want to clear the cart?</p>
+              <button onClick={confirmClearCart}>Yes</button>
+              <button onClick={cancelClearCart}>No</button>
+            </div>
+          )}
         </div>
       ) : (
         <p>Your cart is empty.</p>
