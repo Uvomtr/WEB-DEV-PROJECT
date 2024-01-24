@@ -56,7 +56,7 @@ const foodItems = [
     description:
       "Gallery by Chele is Chef Chele Gonzalez’s signature dining destination, showcasing a fusion of Filipino produce, sustainable practices, and global techniques.",
     image: "burger.jpg",
-    location: 100,
+    location: "5/F Clipp Center, 11th corner 39th Street, BGC, Taguig City, Metro Manila",
     category: "international",
   },
   {
