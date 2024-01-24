@@ -11,6 +11,7 @@ import Metronome from "./Restaurants/Metronome.png";
 import Modan from "./Restaurants/Modan.png";
 import Toyo from "./Restaurants/Toyo Eatery.png";
 import Tsukiji from "./Restaurants/Tsukiji.png";
+import Txanton from "./Restaurants/Txanton.png";
 
 const foodItems = [
   {
