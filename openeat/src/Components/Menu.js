@@ -119,8 +119,8 @@ const foodItems = [
   },
   {
     id: 15,
-    name: "Ice Cream",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Mōdan",
+    description: "Mōdan presents a brilliant, highly personal modern Japanese tasting menu like no other under the expertise of Chef Jorge Mendez.",
     image: "burger.jpg",
     price: 20,
     category: "others",
