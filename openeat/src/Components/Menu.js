@@ -20,7 +20,7 @@ const foodItems = [
     description:
       "Antonio's is a culinary gem in Tagaytay City, known for delivering an exceptional dining experience in a charming setting.",
     image: "burger.jpg",
-    location: 55,
+    location: "Purok 138, Tagaytay City, Cavite",
     category: "international",
   },
   {
