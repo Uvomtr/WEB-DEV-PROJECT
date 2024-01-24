@@ -13,10 +13,9 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import Modal from "./BookingModal";
 
-const Navbar = () => {
+function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
   const [openBookingModal, setOpenBookingModal] = useState(false);
 
@@ -47,25 +46,18 @@ const Navbar = () => {
     setOpenBookingModal(false);
   };
 
-  const handleCartClick = () => {
-    console.log("Cart clicked");
-  };
-
   return (
     <nav>
       <div className="nav-logo-container">
         <img src={Logo} alt="Logo" className="nav-logo" />
       </div>
       <div className="navbar-links-container">
-        <a href="#">Home</a>
+        <a href="#home-section">Home</a>
         <a href="#menu-section">Menu</a>
         <a href="#about-section">About</a>
         <a href="#testimonial-section">Testimonials</a>
         <a href="#contact-section">Contact</a>
-        {/* Remove the following button */}
-        {/* <button onClick={handleCartClick}>
-          <ShoppingCartRoundedIcon className="navbar-cart-icon" />
-        </button> */}
+
         <button className="primary-button" onClick={handleBookingButtonClick}>
           Bookings Now
         </button>
@@ -99,6 +91,6 @@ const Navbar = () => {
       </Modal>
     </nav>
   );
-};
+}
 
 export default Navbar;
