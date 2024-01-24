@@ -38,7 +38,7 @@ const foodItems = [
     description:
       "Benjarong stands as a cherished establishment, offering authentic Thai cuisine and now presenting creative, modern tasting menus.",
     image: "burger.jpg",
-    location: 250,
+    location: "Lobby Level, Dusit Thani Manila, Ayala Center, Makati City, Metro Manila",
     category: "asian",
   },
   {
