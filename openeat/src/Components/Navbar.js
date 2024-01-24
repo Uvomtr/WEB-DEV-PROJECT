@@ -13,7 +13,6 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import Modal from "./BookingModal";
 
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -85,10 +84,6 @@ function Navbar() {
           <Divider />
         </Box>
       </Drawer>
-      <Modal open={openBookingModal} onClose={closeBookingModal}>
-        <h2>Booking Information</h2>
-        <button onClick={closeBookingModal}>Close</button>
-      </Modal>
     </nav>
   );
 }
