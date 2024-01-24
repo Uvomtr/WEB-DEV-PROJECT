@@ -13,7 +13,7 @@ const AddToCart = ({ item, addToCart }) => {
 
   return (
     <div>
-      <button onClick={handleAddToCart}>Add to Cart</button>
+      <button onClick={handleAddToCart}>Visit this Restau!</button>
     </div>
   );
 };
