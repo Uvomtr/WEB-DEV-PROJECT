@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import "./Menu.css";
 import AddToCart from "./AddtoCart";
-import Cart from "./Cart";
 import "./Assets/loc-logo.png";
 import Amano from "./Restaurants/Amano.png";
 import Antonio from "./Restaurants/Antonio's.png";
@@ -227,7 +226,6 @@ const Menu = () => {
   const [sortedItems, setSortedItems] = useState([...foodItems]);
   const [sortOption, setSortOption] = useState("name");
   const [selectedCategory, setSelectedCategory] = useState("all");
-  const [cartItems, setCartItems] = useState([]);
   const [sortOrder, setSortOrder] = useState("asc"); // Add sort order state
 
   const handleSort = () => {
@@ -258,11 +256,6 @@ const Menu = () => {
 
   const handleCategoryChange = (event) => {
     setSelectedCategory(event.target.value);
-  };
-
-  const addToCart = (item, quantity) => {
-    const newItem = { ...item, quantity };
-    setCartItems([...cartItems, newItem]);
   };
 
   const filteredItems =
@@ -302,12 +295,9 @@ const Menu = () => {
               <h4>{item.name}</h4>
               <p>{item.description}</p>
               <p>Location: {item.location}</p>
-              <AddToCart item={item} addToCart={addToCart} />
             </div>
           ))}
         </div>
-
-        <Cart cartItems={cartItems} />
       </div>
     </div>
   );
