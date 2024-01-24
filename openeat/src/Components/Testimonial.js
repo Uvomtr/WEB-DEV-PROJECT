@@ -36,7 +36,6 @@ const Testimonial = () => {
                 <AiFillStar />
               </div>
               <h2>Ryan Joshua T. Araneta</h2>
-              <h2>BSIT-NS 3A</h2>
             </div>
 
             {/* Testimonial 2 */}
@@ -51,7 +50,6 @@ const Testimonial = () => {
                 <AiFillStar />
               </div>
               <h2>Kristel Mae G. Espanillo</h2>
-              <h2>BSIT-NS 3A</h2>
             </div>
 
             {/* Testimonial 3 */}
