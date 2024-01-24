@@ -1,7 +1,7 @@
 // AddToCart.js
 import React, { useState } from "react";
 
-const AddToCart = ({ item, addToCart }) => {
+const Link = ({ item, addToCart }) => {
   const [quantity, setQuantity] = useState(1);
 
   const handleAddToCart = () => {
@@ -18,4 +18,4 @@ const AddToCart = ({ item, addToCart }) => {
   );
 };
 
-export default AddToCart;
+export default Link;

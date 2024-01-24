@@ -1,7 +1,7 @@
 // Menu.js
 import React, { useState } from "react";
 import "./Menu.css";
-import AddToCart from "./Link";
+import Link from "./Link";
 import "./Assets/loc-logo.png";
 
 const foodItems = [
@@ -281,7 +281,7 @@ const Menu = () => {
               <h4>{item.name}</h4>
               <p>{item.description}</p>
               <p>Location: {item.location}</p>
-              <AddToCart item={item} addToCart={addToCart} />
+              <Link item={item} addToCart={addToCart} />
             </div>
           ))}
         </div>
