@@ -24,6 +24,7 @@ const Testimonial = () => {
             {/* Testimonial 1 */}
             <div className="testimonial-card">
               <img src={ProfilePic1} alt="John Doe" />
+              <h3>Aliah Mhae F. Yaba</h3>
               <p>
                 "Enthusiastic IT student with a deep passion for all things
                 tech."
