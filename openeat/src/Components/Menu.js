@@ -151,8 +151,8 @@ const foodItems = [
   },
   {
     id: 19,
-    name: "Salmon",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Txoko Asador",
+    description: "Txoko Asador presents utterly delicious and truly brilliant renditions of popular Spanish dishes.",
     image: "burger.jpg",
     price: 2000,
     category: "fish",
