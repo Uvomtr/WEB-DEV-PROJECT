@@ -65,7 +65,7 @@ const foodItems = [
     description:
       "Hapag is a modern Filipino restaurant known for creative takes on familiar dishes while proudly showcasing native ingredients.",
     image: "burger.jpg",
-    location: 2143142,
+    location: "201 Katipunan Avenue, Quezon City, Metro Manila",
     category: "asian",
   },
   {
