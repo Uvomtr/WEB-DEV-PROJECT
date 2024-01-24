@@ -13,7 +13,6 @@ const AddToCart = ({ item, addToCart }) => {
 
   return (
     <div>
-      <p>Quantity: {quantity}</p>
       <button onClick={handleAddToCart}>Add to Cart</button>
     </div>
   );
