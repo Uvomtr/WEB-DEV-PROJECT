@@ -141,7 +141,7 @@ const foodItems = [
     name: "Mōdan",
     description:
       "Mōdan presents a brilliant, highly personal modern Japanese tasting menu like no other under the expertise of Chef Jorge Mendez.",
-    image: "burger.jpg",
+    image: Modan,
     location: "1/F Escalades East Tower, 20th Avenue, Cubao, Quezon City, Metro Manila",
     category: "asian",
   },
