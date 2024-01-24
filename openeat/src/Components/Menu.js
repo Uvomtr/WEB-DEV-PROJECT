@@ -131,7 +131,7 @@ const foodItems = [
     name: "Metronome",
     description:
       "Metronome, whether for hearty French bistro fare or a wildly creative tasting menu, never misses a beat at this eye-catching establishment.",
-    image: "burger.jpg",
+    image: Metronome,
     location: "160 Bolanos Street, Legazpi Village, Makati City, Metro Manila",
     category: "european",
   },
