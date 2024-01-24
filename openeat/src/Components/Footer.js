@@ -12,6 +12,7 @@ const Footer = () => {
         <div className="footer-logo-container">
           <img src={Logo} alt="" />
         </div>
+        <h3>Follow us:</h3>
         <div className="footer-icons">
           <a
             href="https://twitter.com/"
@@ -53,10 +54,8 @@ const Footer = () => {
           <span>Work</span>
         </div>
         <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>OpenEat.com</span>
-          <span>Eat@Open.com</span>
-          <span>Open@Eat.com</span>
+          <span>TUP Manila</span>
+          <span>openeat.IT@gmail.com</span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>
