@@ -7,6 +7,7 @@ import "./Assets/loc-logo.png";
 import Amano from "./Restaurants/Amano.png";
 import Antonio from "./Restaurants/Antonio's.png";
 import Benjarong from "./Restaurants/Benjarong.png";
+import Blackbird from "./Restaurants/Blackbird.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
@@ -52,7 +53,7 @@ const foodItems = [
     name: "Benjarong",
     description:
       "Benjarong stands as a cherished establishment, offering authentic Thai cuisine and now presenting creative, modern tasting menus.",
-    image: "burger.jpg",
+    image: Blackbird,
     location:
       "Lobby Level, Dusit Thani Manila, Ayala Center, Makati City, Metro Manila",
     category: "asian",
