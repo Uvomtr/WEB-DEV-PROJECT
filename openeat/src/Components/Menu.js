@@ -2,14 +2,14 @@
 import React, { useState } from "react";
 import "./Menu.css";
 import AddToCart from "./AddtoCart";
-import Cart from "./Cart";
 import "./Assets/loc-logo.png";
 
 const foodItems = [
   {
     id: 1,
     name: "A Mano",
-    description: "A Mano has become a Metro Manila staple, offering an enticing blend of authentic and exciting Italian specialties.",
+    description:
+      "A Mano has become a Metro Manila staple, offering an enticing blend of authentic and exciting Italian specialties.",
     image: "./AMMano.png",
     location: "R1 Power Plant Mall, Rockwell Center, Makati City, Metro Manila",
     category: "european",
@@ -29,7 +29,8 @@ const foodItems = [
     description:
       "Blackbird at The Nielson Tower is a fine dining institution with art deco interiors, world-class service, and refined international cuisine.",
     image: "burger.jpg",
-    location: "Nielson Tower Ayala Triangle, Makati Avenue, Makati City, Metro Manila",
+    location:
+      "Nielson Tower Ayala Triangle, Makati Avenue, Makati City, Metro Manila",
     category: "asian",
   },
   {
@@ -38,7 +39,8 @@ const foodItems = [
     description:
       "Benjarong stands as a cherished establishment, offering authentic Thai cuisine and now presenting creative, modern tasting menus.",
     image: "burger.jpg",
-    location: "Lobby Level, Dusit Thani Manila, Ayala Center, Makati City, Metro Manila",
+    location:
+      "Lobby Level, Dusit Thani Manila, Ayala Center, Makati City, Metro Manila",
     category: "asian",
   },
   {
@@ -47,7 +49,8 @@ const foodItems = [
     description:
       "China Blue by Jereme Leung is a stylish establishment offering artful, innovative, and undeniably delicious modern Chinese fare.",
     image: "burger.jpg",
-    location: "3/F Conrad Manila, Mall of Asia Complex, Pasay City, Metro Manila",
+    location:
+      "3/F Conrad Manila, Mall of Asia Complex, Pasay City, Metro Manila",
     category: "asian",
   },
   {
@@ -56,7 +59,8 @@ const foodItems = [
     description:
       "Gallery by Chele is Chef Chele Gonzalez’s signature dining destination, showcasing a fusion of Filipino produce, sustainable practices, and global techniques.",
     image: "burger.jpg",
-    location: "5/F Clipp Center, 11th corner 39th Street, BGC, Taguig City, Metro Manila",
+    location:
+      "5/F Clipp Center, 11th corner 39th Street, BGC, Taguig City, Metro Manila",
     category: "international",
   },
   {
@@ -74,7 +78,8 @@ const foodItems = [
     description:
       "Helm by Josh Boutwood promises a true chef's table experience with Chef Josh Boutwood's creative prowess.",
     image: "burger.jpg",
-    location: "2/F The Plaza Arya Residences Tower, 2 McKinley Parkway, BGC, Taguig, Metro Manila",
+    location:
+      "2/F The Plaza Arya Residences Tower, 2 McKinley Parkway, BGC, Taguig, Metro Manila",
     category: "international",
   },
   {
@@ -83,7 +88,8 @@ const foodItems = [
     description:
       "Kazunori is a Japanese staple guaranteeing satisfaction, whether for a quick lunch, casual dinner, or a memorable omakase experience.",
     image: "burger.jpg",
-    location: "G/F Mazda Makati Building, 2301 Chino Roces Avenue Extension, Makati City, Metro Manila",
+    location:
+      "G/F Mazda Makati Building, 2301 Chino Roces Avenue Extension, Makati City, Metro Manila",
     category: "asian",
   },
   {
@@ -101,7 +107,8 @@ const foodItems = [
     description:
       "M Dining is a no-brainer choice for an exquisite meal in an elegant restaurant, where Chef Tom Bascon’s Asian inflexions on European cuisine shine.",
     image: "burger.jpg",
-    location: "3/F Alegria Alta Building, 2294 Pasong Tamo Extension, Makati City, Metro Manila",
+    location:
+      "3/F Alegria Alta Building, 2294 Pasong Tamo Extension, Makati City, Metro Manila",
     category: "european",
   },
   {
@@ -110,7 +117,8 @@ const foodItems = [
     description:
       "Mecha Uma is a modern Japanese omakase experience, showcasing Chef Bruce Ricketts' culinary excellence.",
     image: "burger.jpg",
-    location: "G/F RCBC Building, 25th Street corner 6th Avenue, BGC, Taguig City, Metro Manila",
+    location:
+      "G/F RCBC Building, 25th Street corner 6th Avenue, BGC, Taguig City, Metro Manila",
     category: "japanese",
   },
   {
@@ -119,7 +127,8 @@ const foodItems = [
     description:
       "Metiz champions Filipino ingredients and local producers through modern dishes grounded in memories of regional flavors.",
     image: "burger.jpg",
-    location: "G/F Building A Karrivin Plaza, 2316 Chino Roces Avenue Extension, Makati City, Metro Manila",
+    location:
+      "G/F Building A Karrivin Plaza, 2316 Chino Roces Avenue Extension, Makati City, Metro Manila",
     category: "asian",
   },
   {
@@ -137,7 +146,8 @@ const foodItems = [
     description:
       "Mōdan presents a brilliant, highly personal modern Japanese tasting menu like no other under the expertise of Chef Jorge Mendez.",
     image: "burger.jpg",
-    location: "1/F Escalades East Tower, 20th Avenue, Cubao, Quezon City, Metro Manila",
+    location:
+      "1/F Escalades East Tower, 20th Avenue, Cubao, Quezon City, Metro Manila",
     category: "asian",
   },
   {
@@ -146,7 +156,8 @@ const foodItems = [
     description:
       "Toyo Eatery, Chef Jordy Navarra's modern Filipino restaurant, has become pivotal in pushing the envelope of our nation's cuisine.",
     image: "burger.jpg",
-    location: "The Alley at Karrivin, Karrivin Plaza, Chino Roces Avenue Ext, Makati City, Metro Manila",
+    location:
+      "The Alley at Karrivin, Karrivin Plaza, Chino Roces Avenue Ext, Makati City, Metro Manila",
     category: "asian",
   },
   {
@@ -155,7 +166,8 @@ const foodItems = [
     description:
       "Tsukiji sets the benchmark for top-tier Japanese cuisine, featuring fresh seafood flown in from the eponymous Tsukiji Fish Market.",
     image: "burger.jpg",
-    location: "3/F Milky Way Building, 900 A. Arnaiz Avenue, Makati City, Metro Manila",
+    location:
+      "3/F Milky Way Building, 900 A. Arnaiz Avenue, Makati City, Metro Manila",
     category: "asian",
   },
   {
@@ -164,7 +176,8 @@ const foodItems = [
     description:
       "Txanton offers a jamón tasting experience, paired with delectable wines and hearty mains to complement the flavors.",
     image: "burger.jpg",
-    location: "2/F Alegria Alta Building, 2294 Chino Roces Avenue, Makati City, Metro Manila",
+    location:
+      "2/F Alegria Alta Building, 2294 Chino Roces Avenue, Makati City, Metro Manila",
     category: "european",
   },
   {
@@ -173,7 +186,8 @@ const foodItems = [
     description:
       "Txoko Asador presents utterly delicious and truly brilliant renditions of popular Spanish dishes.",
     image: "burger.jpg",
-    location: "G/F Erlag Building, 102 Esteban Street, Legazpi Village, Makati City, Metro Manila",
+    location:
+      "G/F Erlag Building, 102 Esteban Street, Legazpi Village, Makati City, Metro Manila",
     category: "european",
   },
   {
@@ -182,7 +196,8 @@ const foodItems = [
     description:
       "Wagyu Studio, an award-winning Japanese concept, places A5 Kobe beef in the spotlight, showcasing Chef Yoki Kitayama's creative and extravagant bites.",
     image: "burger.jpg",
-    location: "G/F The Finance Center, 9th Avenue corner 26th Street, BGC, Taguig City, Metro Manila",
+    location:
+      "G/F The Finance Center, 9th Avenue corner 26th Street, BGC, Taguig City, Metro Manila",
     category: "asian",
   },
 ];
@@ -237,9 +252,7 @@ const Menu = () => {
   return (
     <div id="menu-section">
       <div className="restau-title">
-        <label>
-          Restaurant
-        </label>
+        <label>Restaurant</label>
       </div>
       <div className="menu-container">
         <div className="menu-filters">
@@ -272,8 +285,6 @@ const Menu = () => {
             </div>
           ))}
         </div>
-
-        <Cart cartItems={cartItems} />
       </div>
     </div>
   );
