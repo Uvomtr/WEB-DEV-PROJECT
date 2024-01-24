@@ -14,9 +14,9 @@ const Testimonial = () => {
             <p className="primary-subheading">Testimonials</p>
             <h1 className="primary-heading">What are they saying?</h1>
             <p className="primary-text">
-              Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-              elit. Dolor turpis molestie dui magnis facilisis at fringilla
-              quam.
+              Welcome to our Testimonials page, where real opinions meet real
+              experiences. Our customers are the heartbeat of our community, and
+              their thoughts matter.
             </p>
           </div>
 
