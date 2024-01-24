@@ -12,6 +12,7 @@ import Modan from "./Restaurants/Modan.png";
 import Toyo from "./Restaurants/Toyo Eatery.png";
 import Tsukiji from "./Restaurants/Tsukiji.png";
 import Txanton from "./Restaurants/Txanton.png";
+import Txoko from "./Restaurants/Txoko Asador.png";
 
 const foodItems = [
   {
