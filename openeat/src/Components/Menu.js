@@ -7,15 +7,15 @@ import Cart from "./Cart";
 const foodItems = [
   {
     id: 1,
-    name: "Burger King",
+    name: "Harbor View Restaurant",
     description: "Delicious beef burger with cheese and vegetables.",
-    image: '/assets/salad.jpg',
+    image: "logo.png",
     price: 19,
     category: "beef",
   },
   {
     id: 2,
-    name: "Pizza",
+    name: "The Aristocrat Restaurant",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 55,
@@ -23,7 +23,7 @@ const foodItems = [
   },
   {
     id: 3,
-    name: "Pares",
+    name: "Barbara's Heritage Restaurant",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 68,
@@ -31,7 +31,7 @@ const foodItems = [
   },
   {
     id: 4,
-    name: "Lugaw",
+    name: "Ilustrado Restaurant",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 250,
@@ -39,7 +39,7 @@ const foodItems = [
   },
   {
     id: 5,
-    name: "Adobo",
+    name: "Yurakuen Japanese Restaurant ",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 300,
@@ -47,7 +47,7 @@ const foodItems = [
   },
   {
     id: 6,
-    name: "tinola",
+    name: "9 SPOONS",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 100,
@@ -55,7 +55,7 @@ const foodItems = [
   },
   {
     id: 7,
-    name: "Mani",
+    name: "Market Cafe",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 2143142,
@@ -63,7 +63,7 @@ const foodItems = [
   },
   {
     id: 8,
-    name: "Mango",
+    name: "Cafe Adriatico",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 213,
@@ -71,7 +71,7 @@ const foodItems = [
   },
   {
     id: 9,
-    name: "Sinigang",
+    name: "Bistro Remedios",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 23,
@@ -79,7 +79,7 @@ const foodItems = [
   },
   {
     id: 10,
-    name: "Caldereta",
+    name: "Rado's Lechon",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 10.99,
@@ -172,17 +172,24 @@ const Menu = () => {
   const [sortOption, setSortOption] = useState("name");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [cartItems, setCartItems] = useState([]);
+  const [sortOrder, setSortOrder] = useState("asc"); // Add sort order state
 
   const handleSort = () => {
     const sorted = [...sortedItems].sort((a, b) => {
       if (sortOption === "name") {
-        return a.name.localeCompare(b.name);
+        return sortOrder === "asc"
+          ? a.name.localeCompare(b.name)
+          : b.name.localeCompare(a.name);
       } else if (sortOption === "price") {
-        return a.price - b.price;
+        return sortOrder === "asc" ? a.price - b.price : b.price - a.price;
       }
       return 0;
     });
+
     setSortedItems(sorted);
+
+    // Toggle the sort order for the next click
+    setSortOrder(sortOrder === "asc" ? "desc" : "asc");
   };
 
   const handleOptionChange = (event) => {
