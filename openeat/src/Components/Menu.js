@@ -171,7 +171,7 @@ const foodItems = [
     name: "Txanton",
     description:
       "Txanton offers a jamón tasting experience, paired with delectable wines and hearty mains to complement the flavors.",
-    image: "burger.jpg",
+    image: Txanton,
     location: "2/F Alegria Alta Building, 2294 Chino Roces Avenue, Makati City, Metro Manila",
     category: "european",
   },
