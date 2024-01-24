@@ -1,7 +1,7 @@
 // Menu.js
 import React, { useState } from "react";
 import "./Menu.css";
-import AddToCart from "./AddtoCart";
+import AddToCart from "./Link";
 import "./Assets/loc-logo.png";
 
 const foodItems = [
