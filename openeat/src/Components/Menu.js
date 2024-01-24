@@ -5,6 +5,7 @@ import AddToCart from "./AddtoCart";
 import Cart from "./Cart";
 import "./Assets/loc-logo.png";
 import Amano from "./Restaurants/Amano.png";
+import Antonio from "./Restaurants/Antonio's.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
