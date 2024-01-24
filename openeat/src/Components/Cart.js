@@ -57,10 +57,10 @@ const Cart = ({ cartItems, clearCart }) => {
 
   return (
     <div className="cart-container">
-      <h2>Shopping Cart</h2>
+      {/*<h2>Shopping Cart</h2>*/}
       {cartItems.length > 0 ? (
         <div>
-          <button onClick={() => setOrderReviewOpen(true)}>Review Order</button>
+          {/*<button onClick={() => setOrderReviewOpen(true)}>Review Order</button>*/}
           {isOrderReviewOpen && (
             <OrderReview
               cartItems={cartItems}
@@ -69,12 +69,12 @@ const Cart = ({ cartItems, clearCart }) => {
             />
           )}
           <p>Total: ${getTotalPrice()}</p>
-          <button onClick={handleClearCart}>Clear Cart</button>
+          {/*<button onClick={handleClearCart}>Clear Cart</button>*/}
 
           {/* Confirmation dialog for clearing the cart */}
           {isClearCartDialogOpen && (
             <div className="confirmation-dialog">
-              <p>Are you sure you want to clear the cart?</p>
+              {/*<p>Are you sure you want to clear the cart?</p>*/}
               <button onClick={confirmClearCart}>Yes</button>
               <button onClick={cancelClearCart}>No</button>
             </div>
