@@ -23,8 +23,8 @@ const foodItems = [
   },
   {
     id: 3,
-    name: "Barbara's Heritage Restaurant",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Blackbird at The Nielson Tower",
+    description: "Blackbird at The Nielson Tower is a fine dining institution with art deco interiors, world-class service, and refined international cuisine.",
     image: "burger.jpg",
     price: 68,
     category: "beef",
