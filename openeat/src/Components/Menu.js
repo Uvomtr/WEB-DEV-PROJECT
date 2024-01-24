@@ -8,6 +8,7 @@ import Amano from "./Restaurants/Amano.png";
 import Antonio from "./Restaurants/Antonio's.png";
 import Benjarong from "./Restaurants/Benjarong.png";
 import Blackbird from "./Restaurants/Blackbird.png";
+import ChinaBlue from "./Restaurants/China Blue.png";
 import MDining from "./Restaurants/M Dining.png";
 import MechaUma from "./Restaurants/Mecha Uma.png";
 import Metiz from "./Restaurants/Metiz.png";
@@ -63,7 +64,7 @@ const foodItems = [
     name: "China Blue",
     description:
       "China Blue by Jereme Leung is a stylish establishment offering artful, innovative, and undeniably delicious modern Chinese fare.",
-    image: "burger.jpg",
+    image: ChinaBlue,
     location:
       "3/F Conrad Manila, Mall of Asia Complex, Pasay City, Metro Manila",
     category: "asian",
