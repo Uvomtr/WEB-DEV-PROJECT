@@ -34,7 +34,6 @@ const Map = () => {
       const response = await fetch(url);
       const data = await response.json();
 
-      // Extract restaurant data from the API response (adjust based on API response format)
       const restaurantData = data.elements.filter(
         (element) =>
           element.tags &&
