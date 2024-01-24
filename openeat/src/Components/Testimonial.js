@@ -2,6 +2,7 @@ import React from "react";
 import ProfilePic1 from "./Profile/Araneta.png";
 import ProfilePic2 from "./Profile/Espanillo.png";
 import ProfilePic3 from "./Profile/Galicia.png";
+import ProfilePic4 from "./Profile/Yaba.png";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
@@ -65,6 +66,20 @@ const Testimonial = () => {
                 <AiFillStar />
               </div>
               <h2>Christine Joy P. Galicia</h2>
+            </div>
+
+            {/* Testimonial 4 */}
+            <div className="testimonial-card">
+              <img src={ProfilePic4} alt="Mary Doe" />
+              <p>"An IT Student that loves to enjoy foods"</p>
+              <div className="testimonials-stars-container">
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+                <AiFillStar />
+              </div>
+              <h2>Aliah Mhae F. Yaba</h2>
             </div>
           </div>
         </div>
