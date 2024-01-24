@@ -74,7 +74,7 @@ const foodItems = [
     description:
       "Helm by Josh Boutwood promises a true chef's table experience with Chef Josh Boutwood's creative prowess.",
     image: "burger.jpg",
-    location: 213,
+    location: "2/F The Plaza Arya Residences Tower, 2 McKinley Parkway, BGC, Taguig, Metro Manila",
     category: "international",
   },
   {
