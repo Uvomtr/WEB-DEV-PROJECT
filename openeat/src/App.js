@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <Home />
       <About />
+      <Menu />
       <Work />
       <Testimonial />
       <Contact />
