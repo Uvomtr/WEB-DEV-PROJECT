@@ -7,7 +7,7 @@ import Cart from "./Cart";
 const foodItems = [
   {
     id: 1,
-    name: "Burger",
+    name: "Burger King",
     description: "Delicious beef burger with cheese and vegetables.",
     image: "burger.jpg",
     price: 19,
