@@ -83,7 +83,7 @@ const foodItems = [
     description:
       "Kazunori is a Japanese staple guaranteeing satisfaction, whether for a quick lunch, casual dinner, or a memorable omakase experience.",
     image: "burger.jpg",
-    location: 23,
+    location: "G/F Mazda Makati Building, 2301 Chino Roces Avenue Extension, Makati City, Metro Manila",
     category: "asian",
   },
   {
