@@ -95,8 +95,8 @@ const foodItems = [
   },
   {
     id: 12,
-    name: "Fried Chicken",
-    description: "Delicious beef burger with cheese and vegetables.",
+    name: "Mecha Uma",
+    description: "Mecha Uma is a modern Japanese omakase experience, showcasing Chef Bruce Ricketts' culinary excellence.",
     image: "burger.jpg",
     price: 10.99,
     category: "chicken",
