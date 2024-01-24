@@ -238,7 +238,7 @@ const Menu = () => {
           {filteredItems.map((item) => (
             <div key={item.id} className="menu-item">
               <img src={item.image} alt={item.name} />
-              <h3>{item.name}</h3>
+              <h4>{item.name}</h4>
               <p>{item.description}</p>
               <p>Location: {item.location}</p>
               <AddToCart item={item} addToCart={addToCart} />
