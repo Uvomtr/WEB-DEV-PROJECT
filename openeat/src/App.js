@@ -6,7 +6,7 @@ import Work from "./Components/Work";
 import Review from "./Components/Review";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import Map from "./Components/Map"; // Import the Map component
+import Map from "./Components/Map";
 
 function App() {
   return (

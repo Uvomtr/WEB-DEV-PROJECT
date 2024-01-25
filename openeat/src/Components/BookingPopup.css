@@ -1,0 +1,29 @@
+/* BookingPopup.css */
+
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-field {
+  margin-bottom: 10px;
+}
+
+/* Arrange text fields horizontally */
+.text-field.horizontal {
+  margin-right: 10px;
+}
+
+.button {
+  margin-top: 15px;
+}
