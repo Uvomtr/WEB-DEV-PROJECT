@@ -248,7 +248,7 @@ const Restaurant = () => {
   const [sortedItems, setSortedItems] = useState([...foodItems]);
   const [sortOption, setSortOption] = useState("name");
   const [selectedCategory, setSelectedCategory] = useState("all");
-  const [sortOrder, setSortOrder] = useState("asc"); // Add sort order state
+  const [sortOrder, setSortOrder] = useState("asc"); 
 
   const handleSort = () => {
     const sorted = [...sortedItems].sort((a, b) => {
@@ -256,8 +256,6 @@ const Restaurant = () => {
         return sortOrder === "asc"
           ? a.name.localeCompare(b.name)
           : b.name.localeCompare(a.name);
-      } else if (sortOption === "price") {
-        return sortOrder === "asc" ? a.price - b.price : b.price - a.price;
       } else if (sortOption === "az") {
         return a.name.localeCompare(b.name);
       } else if (sortOption === "za") {
@@ -267,8 +265,6 @@ const Restaurant = () => {
     });
 
     setSortedItems(sorted);
-
-    // Toggle the sort order for the next click
     setSortOrder(sortOrder === "asc" ? "desc" : "asc");
   };
 

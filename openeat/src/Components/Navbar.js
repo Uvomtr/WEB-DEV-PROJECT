@@ -49,7 +49,7 @@ function Navbar() {
       </div>
       <div className="navbar-links-container">
         <a href="#home-section">Home</a>
-        <a href="#menu-section">Restaurant</a>
+        <a href="#Restaurant-section">Restaurant</a>
         <a href="#about-section">About</a>
         <a href="#review-section">Review Hub</a>
         <a href="#contact-section">Contact</a>
@@ -80,8 +80,6 @@ function Navbar() {
           <Divider />
         </Box>
       </Drawer>
-
-      {/* Connect the "Book Now" button to BookingPopup */}
       <BookingPopup
         isOpen={isBookingOpen}
         onClose={() => setIsBookingOpen(false)}
