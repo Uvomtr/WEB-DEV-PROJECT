@@ -10,7 +10,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
 const Map = () => {
-  const centerOfManila = [14.5987, 120.9842];
+  const centerOfManila = [14.584447, 120.984222];
   const fenceBounds = [
     [19.41, 116.8],
     [4.64, 126.6],
@@ -62,7 +62,7 @@ const Map = () => {
     <div className="map-container">
       <MapContainer
         center={centerOfManila}
-        zoom={12}
+        zoom={25} // Adjust the zoom level as needed
         style={{ height: "100%" }}
       >
         <TileLayer
