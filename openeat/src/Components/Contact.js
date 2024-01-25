@@ -11,7 +11,7 @@ const Contact = () => {
         <h1 className="primary-heading">Have a Question In Mind?</h1>
         <h1 className="primary-heading">Let Us Help You</h1>
         <div className="contact-form-container">
-          <input type="email" placeholder="openeat.IT@gmail.com" />
+          <input type="email" placeholder="openeat.it@gmail.com" />
           <button className="secondary-button" onClick={handleEmailSubmission}>
             Submit
           </button>

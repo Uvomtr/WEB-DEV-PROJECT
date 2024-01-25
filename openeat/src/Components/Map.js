@@ -62,7 +62,7 @@ const Map = () => {
     <div className="map-container">
       <MapContainer
         center={centerOfManila}
-        zoom={25} // Adjust the zoom level as needed
+        zoom={25} 
         style={{ height: "100%" }}
       >
         <TileLayer

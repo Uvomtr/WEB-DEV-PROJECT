@@ -15,8 +15,6 @@ const BookingPopup = ({ isOpen, onClose }) => {
   const [bookingDate, setBookingDate] = useState("");
 
   const handleBookNow = () => {
-    // Handle booking logic here
-    // You can send the form data to your backend or perform any necessary actions
     console.log("Booking data:", {
       name,
       username,
@@ -26,8 +24,6 @@ const BookingPopup = ({ isOpen, onClose }) => {
       location,
       bookingDate,
     });
-
-    // Close the modal
     onClose();
   };
 
