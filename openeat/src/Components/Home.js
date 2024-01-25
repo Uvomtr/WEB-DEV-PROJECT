@@ -21,8 +21,8 @@ const Home = () => {
               Elevate your dining adventures by exploring a tailored selection
               that aligns seamlessly with your palate.
             </p>
-            <a href="#menu-section" className="secondary-button">
-              Order Now <FiArrowRight />
+            <a href="#Restaurant-section" className="secondary-button">
+              Browse <FiArrowRight />
             </a>
           </div>
           <div className="home-image-section">
