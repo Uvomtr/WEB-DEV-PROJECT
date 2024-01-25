@@ -221,7 +221,7 @@ const foodItems = [
   },
 ];
 
-const Menu = () => {
+const Restaurant = () => {
   const [sortedItems, setSortedItems] = useState([...foodItems]);
   const [sortOption, setSortOption] = useState("name");
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -302,4 +302,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default Restaurant;
