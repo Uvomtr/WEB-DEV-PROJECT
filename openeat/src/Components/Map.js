@@ -25,7 +25,7 @@ const Map = () => {
   }, [centerOfManila]);
 
   const fetchNearbyRestaurants = async (lat, lng) => {
-    const radius = 5000;
+    const radius = 2000;
     const url = `https://api.openstreetmap.org/api/0.6/map?bbox=${lng - 0.05},${
       lat - 0.05
     },${lng + 0.05},${lat + 0.05}`;
