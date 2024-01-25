@@ -45,7 +45,7 @@ nav {
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
-  background-color: #f6f6f6;
+  background-color: #4caf50;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -54,11 +54,9 @@ nav {
   font-weight: 600;
   transition: 0.2s;
 }
-.navbar-cart-icon {
-  font-size: 1.15rem;
-}
+
 .primary-button:hover {
-  background-color: #2a6663;
+  background-color: #5981b5;
 }
 .navbar-menu-container svg {
   font-size: 1.5rem;
@@ -100,7 +98,7 @@ nav {
   margin: 1.5rem 0rem;
 }
 
-/*------------------ Order Now */
+/*------------------ Browse Button ------------------*/
 .secondary-button {
   padding: 1rem 2.5rem;
   background-color: #fe9e0d;
@@ -123,6 +121,7 @@ nav {
 .secondary-button:hover {
   background-color: #e48f0f;
 }
+/*------------------ About Section ------------------*/
 .about-section-container {
   margin-top: 20rem;
   position: relative;
@@ -154,6 +153,8 @@ nav {
   margin-top: 2rem;
   display: flex;
 }
+
+/*------------------ Contact Section ------------------*/
 .contact-page-wrapper h1 {
   max-width: 900px !important;
 }
@@ -183,6 +184,7 @@ nav {
   padding: 0.5rem 1rem;
 }
 
+/*------------------ Map ------------------*/
 .map-container {
   height: 400px;
   width: 100%;
@@ -192,18 +194,10 @@ nav {
   margin-bottom: 20px; /* Adjust margin as needed */
 }
 
-.food-delivery-form {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
 
 label {
   margin-bottom: 10px;
 }
-
 
 input,
 textarea {
@@ -221,32 +215,30 @@ button {
   cursor: pointer;
 }
 
-/* Responsive Styles */
-@media (max-width: 600px) {
-  .food-delivery-form {
-    max-width: 100%;
-  }
-}
-
+/*------------------ Footer Section ------------------*/
 .footer-wrapper {
   margin: 6rem 0rem;
   display: flex;
   margin-top: 10rem;
 }
+
+.footer-wrapper:hover {
+  color: #5981b5;
+}
+
 .footer-logo-container {
   max-width: 110px;
 }
+
 .footer-icons {
   margin-top: 2.5rem;
 }
+
 .footer-icons svg {
   font-size: 1.5rem;
   margin-right: 1.25rem;
   color: #585858;
 }
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
 .footer-section-two {
   flex: 1;
   display: flex;
@@ -263,70 +255,15 @@ button {
   color: #4c4c4c;
   cursor: pointer;
 }
+.footer-wrapper:hover .footer-section-columns span:hover {
+  color: #5981b5;
+}
 
+
+/*------------------ Work Section ------------------*/
 .work-section-wrapper {
   text-align: center;
 }
-
-.review-section {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  justify-content: space-between;
-}
-
-.review-card {
-  background-color: #fff;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-  padding: 1rem;
-}
-
-.review-card:hover {
-  transform: translateY(-5px);
-}
-
-.review-content {
-  padding: 20px;
-}
-
-.review-content img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.review-content p {
-  margin-bottom: 15px;
-  font-size: 14px;
-  color: #333;
-}
-
-.reviews-stars-container {
-  display: flex;
-  gap: 3px;
-  color: #f39c12;
-  margin: 1rem;
-}
-
-
-h3 {
-  margin: 1rem;
-  font-size: 16px;
-  color: #f39c12;
-  text-align: left;
-}
-
-h2 {
-  margin: 1.3rem;
-  font-size: 20px;
-  color: #f39c12;
-  text-align: right;
-}
-
 .work-section-wrapper {
   margin-top: 15rem;
 }
@@ -374,10 +311,63 @@ h2 {
   flex: 1;
   display: flex;
   align-items: center;
-  font-weight: 600;
-  
+  font-weight: 600; 
 }
 
+/*------------------ Review Section ------------------*/
+.review-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: space-between;
+}
+.review-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  padding: 1rem;
+}
+.review-card:hover {
+  transform: translateY(-5px);
+}
+.review-content {
+  padding: 20px;
+}
+.review-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.review-content p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333;
+}
+.reviews-stars-container {
+  display: flex;
+  gap: 3px;
+  color: #f39c12;
+  margin: 1rem;
+}
+
+/*------------------ Text Styles ------------------*/
+h3 {
+  margin: 1rem;
+  font-size: 16px;
+  color: #f39c12;
+  text-align: left;
+}
+h2 {
+  margin: 1.3rem;
+  font-size: 20px;
+  color: #f39c12;
+  text-align: right;
+}
+
+/*------------------ Responsive Styles ------------------*/
 @media (max-width: 1000px) {
   .navbar-links-container a {
     margin-right: 1rem;
@@ -490,30 +480,7 @@ h2 {
   }
 }
 
-.booking-popup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-/* Styles for the popup content */
-.booking-popup-content {
-  background: #f6f6f6;
-  padding: 20px;
-  max-width: 400px;
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-/* Close icon */
+/*------------------ Close Icon ------------------*/
 .close-icon {
   position: absolute;
   top: 10px;
@@ -521,11 +488,6 @@ h2 {
   cursor: pointer;
   font-size: 20px;
   color: #333;
-}
-
-/* Form styles */
-form {
-  margin-top: 20px;
 }
 
 label {
@@ -539,7 +501,7 @@ input {
   margin-bottom: 15px;
 }
 
-/*---- Sort Button ----*/
+/*------------------ Sort Button ------------------*/
 button {
   background-color: #4caf50;
   padding: 10px 36px;
@@ -552,15 +514,13 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Modals*/
-/* Add this to your CSS file or inline styles in the BookingModal.js file */
+/*------------------ Modal Container ------------------*/
 .centered-modal {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Adjust the height as needed */
+  height: 100vh; 
 }
-
 .centered-modal-box {
   width: 300px;
   padding: 2em;
@@ -568,6 +528,4 @@ button:hover {
   border-radius: 8px;
 }
 
-.map-container {
-  height: 400px;
-}
+
