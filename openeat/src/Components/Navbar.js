@@ -29,7 +29,7 @@ function Navbar() {
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "Reviews",
       icon: <CommentRoundedIcon />,
     },
     {
@@ -49,9 +49,9 @@ function Navbar() {
       </div>
       <div className="navbar-links-container">
         <a href="#home-section">Home</a>
-        <a href="#menu-section">Restaurant</a>
+        <a href="#Restaurant-section">Restaurant</a>
         <a href="#about-section">About</a>
-        <a href="#testimonial-section">Testimonials</a>
+        <a href="#review-section">Review Hub</a>
         <a href="#contact-section">Contact</a>
         <button className="primary-button" onClick={openBookingModal}>
           Book Now

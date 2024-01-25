@@ -78,10 +78,15 @@ const BookingPopup = ({ isOpen, onClose }) => {
             type="date"
             value={bookingDate}
             onChange={(e) => setBookingDate(e.target.value)}
+            InputLabelProps={{
+              shrink: true,
+            }}
+            style={{ marginTop: '15px' }}
           />
 
           <Button
-            className="button"
+            style={{ marginTop: '15px', background: '#5981b5' }}
+            className="book-button"
             variant="contained"
             color="primary"
             onClick={handleBookNow}

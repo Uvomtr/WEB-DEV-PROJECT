@@ -1,11 +1,9 @@
 import React from "react";
 import AboutBackground from "./Assets/about-bg.png";
 import AboutBackgroundImage from "./Assets/about-banner.png";
-import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
-  const youtubeVideoId = "yl5CXDB7mzs";
-  const youtubeVideoUrl = `https://www.youtube.com/watch?v=${youtubeVideoId}`;
+  
 
   return (
     <div id="about-section">
@@ -29,21 +27,10 @@ const About = () => {
               customize your preferences.
             </p>
             <p className="primary-text">
-              With intuitive filters, you can exclude specific types of cuisine
-              or ingredients you don't want, ensuring that the recommendations
+            Easily refine your search using filters, including specific restaurant types like Asian, European, and International, ensuring recommendations match your taste preferences perfectly.mendations
               align perfectly with your culinary preferences.
             </p>
-            <div className="about-buttons-container">
-              <button className="secondary-button">Learn More</button>
-              <a
-                href={youtubeVideoUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="watch-video-button"
-              >
-                <BsFillPlayCircleFill /> Watch Video
-              </a>
-            </div>
+
           </div>
         </div>
       </div>

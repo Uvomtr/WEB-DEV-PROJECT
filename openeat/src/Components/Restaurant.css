@@ -1,22 +1,22 @@
-/* Menu.css */
-.menu-container {
+/* Restaurant.css */
+.Restaurant-container {
   text-align: center;
 }
 
-.menu-items {
+.Restaurant-items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin-top: 20px;
 }
 
-.menu-item {
+.Restaurant-item {
   border: 1px solid #ccc;
   padding: 10px;
   text-align: left;
 }
 
-.menu-item img {
+.Restaurant-item img {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
@@ -38,4 +38,9 @@ h4 p {
   font-size: 1.15rem;
   font-weight: 700;
   color: #f39c12;
+}
+
+.restau-title p {
+  color: #261d1b;
+  font-size: clamp(2rem, 5vw, 4rem);;
 }

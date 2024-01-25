@@ -9,19 +9,22 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: white;
-  padding: 20px;
+  padding: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
-.form-container {
+.modal-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
 }
 
 .text-field {
   margin-bottom: 100px;
   width: 100%;
+  height: 80px;
 }
 
 /* Arrange text fields horizontally */
@@ -29,6 +32,3 @@
   margin-right: 10px;
 }
 
-.button {
-  margin-top: 15px;
-}
