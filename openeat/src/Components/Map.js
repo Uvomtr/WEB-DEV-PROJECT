@@ -10,7 +10,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
 const Map = () => {
-  const centerOfManila = [14.5987, 120.9842];
+  const centerOfManila = [14.5873682, 120.984471218323];
   const fenceBounds = [
     [19.41, 116.8],
     [4.64, 126.6],
@@ -25,7 +25,7 @@ const Map = () => {
   }, [centerOfManila]);
 
   const fetchNearbyRestaurants = async (lat, lng) => {
-    const radius = 5000;
+    const radius = 2000;
     const url = `https://api.openstreetmap.org/api/0.6/map?bbox=${lng - 0.05},${
       lat - 0.05
     },${lng + 0.05},${lat + 0.05}`;
@@ -62,7 +62,7 @@ const Map = () => {
     <div className="map-container">
       <MapContainer
         center={centerOfManila}
-        zoom={12}
+        zoom={25} // Adjust the zoom level as needed
         style={{ height: "100%" }}
       >
         <TileLayer

@@ -13,9 +13,11 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
+import BookingPopup from "./BookingPopup";
 
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
+  const [isBookingOpen, setIsBookingOpen] = useState(false);
 
   const menuOptions = [
     {
@@ -27,7 +29,7 @@ function Navbar() {
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "Reviews",
       icon: <CommentRoundedIcon />,
     },
     {
@@ -36,6 +38,10 @@ function Navbar() {
     },
   ];
 
+  const openBookingModal = () => {
+    setIsBookingOpen(true);
+  };
+
   return (
     <nav>
       <div className="nav-logo-container">
@@ -43,10 +49,13 @@ function Navbar() {
       </div>
       <div className="navbar-links-container">
         <a href="#home-section">Home</a>
-        <a href="#menu-section">Menu</a>
+        <a href="#menu-section">Restaurant</a>
         <a href="#about-section">About</a>
-        <a href="#testimonial-section">Testimonials</a>
+        <a href="#review-section">Review Hub</a>
         <a href="#contact-section">Contact</a>
+        <button className="primary-button" onClick={openBookingModal}>
+          Book Now
+        </button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -71,6 +80,12 @@ function Navbar() {
           <Divider />
         </Box>
       </Drawer>
+
+      {/* Connect the "Book Now" button to BookingPopup */}
+      <BookingPopup
+        isOpen={isBookingOpen}
+        onClose={() => setIsBookingOpen(false)}
+      />
     </nav>
   );
 }

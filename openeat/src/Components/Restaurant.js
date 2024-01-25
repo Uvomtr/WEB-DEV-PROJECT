@@ -1,6 +1,6 @@
-// Menu.js
+// Restaurant.js
 import React, { useState } from "react";
-import "./Menu.css";
+import "./Restaurant.css";
 import "./Assets/loc-logo.png";
 import Amano from "./Restaurants/Amano.png";
 import Antonio from "./Restaurants/Antonio's.png";
@@ -221,7 +221,7 @@ const foodItems = [
   },
 ];
 
-const Menu = () => {
+const Restaurant = () => {
   const [sortedItems, setSortedItems] = useState([...foodItems]);
   const [sortOption, setSortOption] = useState("name");
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -263,12 +263,13 @@ const Menu = () => {
       : sortedItems.filter((item) => item.category === selectedCategory);
 
   return (
-    <div id="menu-section">
+    <div id="Restaurant-section">
       <div className="restau-title">
         <label>Restaurant</label>
+        <p>Discover Our Best Picks!</p>
       </div>
-      <div className="menu-container">
-        <div className="menu-filters">
+      <div className="Restaurant-container">
+        <div className="Restaurant-filters">
           <label>
             Sort by:
             <select value={sortOption} onChange={handleOptionChange}>
@@ -287,9 +288,9 @@ const Menu = () => {
           </label>
           <button onClick={handleSort}>Sort</button>
         </div>
-        <div className="menu-items">
+        <div className="Restaurant-items">
           {filteredItems.map((item) => (
-            <div key={item.id} className="menu-item">
+            <div key={item.id} className="Restaurant-item">
               <img src={item.image} alt={item.name} />
               <h4>{item.name}</h4>
               <p>{item.description}</p>
@@ -302,4 +303,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default Restaurant;

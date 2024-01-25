@@ -1,24 +1,24 @@
 import React from "react";
-import PickMeals from "./Assets/pick-meals-image.png";
-import ChooseMeals from "./Assets/choose-image.png";
-import DeliveryMeals from "./Assets/delivery-image.png";
+import ChooseRestau from "./Assets/choose.png";
+import ClickRestau from "./Assets/click.png";
+import BookRestau from "./Assets/book.png";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      image: ChooseRestau,
+      title: "Choose",
+      text: "Explore and select your desired restaurant. Utilize the filter option to easily categorize restaurants based on your preferences.",
     },
     {
-      image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      image: ClickRestau,
+      title: "Click",
+      text: "After making your selection, explore their website or check out their social media profiles by just clicking the button.",
     },
     {
-      image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      image: BookRestau,
+      title: "Book",
+      text: "Wrap it up by reserving your favorite top-rated restaurant, choosing your preferred time and date hassle-free.",
     },
   ];
   return (
@@ -27,8 +27,7 @@ const Work = () => {
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Feeling indecisive? Follow these 3 simple steps to effortlessly pick and reserve your favorite top-rated restaurant.
         </p>
       </div>
       <div className="work-section-bottom">
