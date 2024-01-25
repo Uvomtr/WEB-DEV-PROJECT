@@ -6,7 +6,7 @@ Section: BSIT-NS-3A
 
 Group Members & Their Roles: 
 
-Araneta, Ryan Joshua T.     -   In-charge of creating the base of the program. Contributed in testing some features in the program, as well as double checking the files for some errors.
+Araneta, Ryan Joshua T.     -   In-charge of creating the base of the program. Contributed in testing some features in the program such as the filter option and book now button, as well as double checking the files for some errors.
 
 Espanillo, Kristel Mae G.   -   In-charge of creating the design or template of the program in Figma, gathered the images that are needed in the program and in testing some features in the program.
 
