@@ -286,14 +286,14 @@ button {
   text-align: center;
 }
 
-.testimonial-section {
+.review-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   justify-content: space-between;
 }
 
-.testimonial-card {
+.review-card {
   background-color: #fff;
   border-radius: 8px;
   overflow: hidden;
@@ -302,28 +302,28 @@ button {
   padding: 1rem;
 }
 
-.testimonial-card:hover {
+.review-card:hover {
   transform: translateY(-5px);
 }
 
-.testimonial-content {
+.review-content {
   padding: 20px;
 }
 
-.testimonial-content img {
+.review-content img {
   width: 100%;
   height: auto;
   border-radius: 50%;
   margin-bottom: 10px;
 }
 
-.testimonial-content p {
+.review-content p {
   margin-bottom: 15px;
   font-size: 14px;
   color: #333;
 }
 
-.testimonials-stars-container {
+.reviews-stars-container {
   display: flex;
   gap: 3px;
   color: #f39c12;

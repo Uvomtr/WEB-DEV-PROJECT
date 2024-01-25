@@ -45,7 +45,7 @@ function Navbar() {
         <a href="#home-section">Home</a>
         <a href="#menu-section">Restaurant</a>
         <a href="#about-section">About</a>
-        <a href="#testimonial-section">Review Hub</a>
+        <a href="#review-section">Review Hub</a>
         <a href="#contact-section">Contact</a>
       </div>
       <div className="navbar-menu-container">
