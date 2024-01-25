@@ -3,7 +3,7 @@ import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import "./BookingPopup.css"; // Import the CSS file
+import "./BookingPopup.css";
 
 const BookingPopup = ({ isOpen, onClose }) => {
   const [name, setName] = useState("");
