@@ -17,7 +17,7 @@ function App() {
       <Work />
       <Review />
       <Contact />
-      <Map /> {/* Include the Map component */}
+      <Map />
       <Footer />
     </div>
   );

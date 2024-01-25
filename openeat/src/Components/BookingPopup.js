@@ -3,7 +3,7 @@ import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import "./BookingPopup.css"; // Import the CSS file
+import "./BookingPopup.css";
 
 const BookingPopup = ({ isOpen, onClose }) => {
   const [name, setName] = useState("");
@@ -15,8 +15,6 @@ const BookingPopup = ({ isOpen, onClose }) => {
   const [bookingDate, setBookingDate] = useState("");
 
   const handleBookNow = () => {
-    // Handle booking logic here
-    // You can send the form data to your backend or perform any necessary actions
     console.log("Booking data:", {
       name,
       username,
@@ -26,8 +24,6 @@ const BookingPopup = ({ isOpen, onClose }) => {
       location,
       bookingDate,
     });
-
-    // Close the modal
     onClose();
   };
 

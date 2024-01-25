@@ -80,8 +80,6 @@ function Navbar() {
           <Divider />
         </Box>
       </Drawer>
-
-      {/* Connect the "Book Now" button to BookingPopup */}
       <BookingPopup
         isOpen={isBookingOpen}
         onClose={() => setIsBookingOpen(false)}

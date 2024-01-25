@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         <div className="footer-section-columns">
           <span>TUP Manila</span>
-          <span>openeat.IT@gmail.com</span>
+          <span>openeat.it@gmail.com</span>
         </div>
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>
