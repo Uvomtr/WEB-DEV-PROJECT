@@ -22,6 +22,7 @@ import Tsukiji from "./Restaurants/Tsukiji.png";
 import Txanton from "./Restaurants/Txanton.png";
 import Txoko from "./Restaurants/Txoko Asador.png";
 import Wagyu from "./Restaurants/Wagyu Studio.png";
+import Visit from "./Visit";
 
 const foodItems = [
   {
@@ -32,6 +33,7 @@ const foodItems = [
     image: Amano,
     location: "R1 Power Plant Mall, Rockwell Center, Makati City, Metro Manila",
     category: "european",
+    websiteLink: "https://amano.pickup.ph/",
   },
   {
     id: 2,
@@ -41,6 +43,7 @@ const foodItems = [
     image: Antonio,
     location: "Purok 138, Tagaytay City, Cavite",
     category: "international",
+    websiteLink: "https://www.antoniosrestaurant.ph/antonios-restaurant",
   },
   {
     id: 3,
@@ -51,6 +54,7 @@ const foodItems = [
     location:
       "Nielson Tower Ayala Triangle, Makati Avenue, Makati City, Metro Manila",
     category: "asian",
+    websiteLink: "https://www.blackbird.com.ph/",
   },
   {
     id: 4,
@@ -61,6 +65,7 @@ const foodItems = [
     location:
       "Lobby Level, Dusit Thani Manila, Ayala Center, Makati City, Metro Manila",
     category: "asian",
+    websiteLink: "https://www.facebook.com/benjarongmanila/",
   },
   {
     id: 5,
@@ -71,6 +76,8 @@ const foodItems = [
     location:
       "3/F Conrad Manila, Mall of Asia Complex, Pasay City, Metro Manila",
     category: "asian",
+    websiteLink:
+      "https://eatdrinkhilton.com/china-blue-by-jereme-leung-conrad-manila/",
   },
   {
     id: 6,
@@ -81,6 +88,7 @@ const foodItems = [
     location:
       "5/F Clipp Center, 11th corner 39th Street, BGC, Taguig City, Metro Manila",
     category: "international",
+    websiteLink: "https://www.instagram.com/gallerybychele/?hl=en",
   },
   {
     id: 7,
@@ -90,6 +98,7 @@ const foodItems = [
     image: Hapag,
     location: "201 Katipunan Avenue, Quezon City, Metro Manila",
     category: "asian",
+    websiteLink: "https://www.facebook.com/HapagKainanPH/",
   },
   {
     id: 8,
@@ -100,6 +109,8 @@ const foodItems = [
     location:
       "2/F The Plaza Arya Residences Tower, 2 McKinley Parkway, BGC, Taguig, Metro Manila",
     category: "international",
+    websiteLink:
+      "https://www.theworlds50best.com/discovery/Establishments/Phillippines/Taguig/Helm.html",
   },
   {
     id: 9,
@@ -110,6 +121,7 @@ const foodItems = [
     location:
       "G/F Mazda Makati Building, 2301 Chino Roces Avenue Extension, Makati City, Metro Manila",
     category: "asian",
+    websiteLink: "https://www.facebook.com/kazunorijapaneserestaurant/",
   },
   {
     id: 10,
@@ -119,6 +131,7 @@ const foodItems = [
     image: Lusso,
     location: "G/F Greenbelt 5, 174 Ayala Avenue, Makati City",
     category: "european",
+    websiteLink: "https://www.facebook.com/lussomanila/",
   },
   {
     id: 11,
@@ -129,6 +142,7 @@ const foodItems = [
     location:
       "3/F Alegria Alta Building, 2294 Pasong Tamo Extension, Makati City, Metro Manila",
     category: "european",
+    websiteLink: "https://mgroup.com.ph/menu/",
   },
   {
     id: 12,
@@ -139,6 +153,7 @@ const foodItems = [
     location:
       "G/F RCBC Building, 25th Street corner 6th Avenue, BGC, Taguig City, Metro Manila",
     category: "japanese",
+    websiteLink: "https://www.instagram.com/mechauma/?hl=en",
   },
   {
     id: 13,
@@ -149,6 +164,7 @@ const foodItems = [
     location:
       "G/F Building A Karrivin Plaza, 2316 Chino Roces Avenue Extension, Makati City, Metro Manila",
     category: "asian",
+    websiteLink: "https://www.instagram.com/metizresto/?hl=en",
   },
   {
     id: 14,
@@ -158,6 +174,7 @@ const foodItems = [
     image: Metronome,
     location: "160 Bolanos Street, Legazpi Village, Makati City, Metro Manila",
     category: "european",
+    websiteLink: "https://www.restaurantmetronome.com/",
   },
   {
     id: 15,
@@ -168,6 +185,7 @@ const foodItems = [
     location:
       "1/F Escalades East Tower, 20th Avenue, Cubao, Quezon City, Metro Manila",
     category: "asian",
+    websiteLink: "https://modanmnl.ph/",
   },
   {
     id: 16,
@@ -178,6 +196,7 @@ const foodItems = [
     location:
       "The Alley at Karrivin, Karrivin Plaza, Chino Roces Avenue Ext, Makati City, Metro Manila",
     category: "asian",
+    websiteLink: "https://toyoeatery.com/",
   },
   {
     id: 17,
@@ -188,6 +207,7 @@ const foodItems = [
     location:
       "3/F Milky Way Building, 900 A. Arnaiz Avenue, Makati City, Metro Manila",
     category: "asian",
+    websiteLink: "https://www.tsukiji-restaurant.com/",
   },
   {
     id: 18,
@@ -198,6 +218,7 @@ const foodItems = [
     location:
       "2/F Alegria Alta Building, 2294 Chino Roces Avenue, Makati City, Metro Manila",
     category: "european",
+    websiteLink: "https://www.txanton.com.ph/",
   },
   {
     id: 19,
@@ -208,6 +229,7 @@ const foodItems = [
     location:
       "G/F Erlag Building, 102 Esteban Street, Legazpi Village, Makati City, Metro Manila",
     category: "european",
+    websiteLink: "https://www.facebook.com/txokoasador/",
   },
   {
     id: 20,
@@ -218,6 +240,7 @@ const foodItems = [
     location:
       "G/F The Finance Center, 9th Avenue corner 26th Street, BGC, Taguig City, Metro Manila",
     category: "asian",
+    websiteLink: "https://www.wagyustudio.com/",
   },
 ];
 
@@ -291,6 +314,7 @@ const Restaurant = () => {
               <h4>{item.name}</h4>
               <p>{item.description}</p>
               <p>Location: {item.location}</p>
+              <Visit item={item} />
             </div>
           ))}
         </div>
