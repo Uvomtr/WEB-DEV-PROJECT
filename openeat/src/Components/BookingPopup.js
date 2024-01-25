@@ -33,12 +33,6 @@ const BookingPopup = ({ isOpen, onClose }) => {
         <div>
           <TextField
             className="text-field"
-            label="Name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-          <TextField
-            className="text-field"
             label="Username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
@@ -77,11 +71,11 @@ const BookingPopup = ({ isOpen, onClose }) => {
             InputLabelProps={{
               shrink: true,
             }}
-            style={{ marginTop: '15px' }}
+            style={{ marginTop: "15px" }}
           />
 
           <Button
-            style={{ marginTop: '15px', background: '#5981b5' }}
+            style={{ marginTop: "15px", background: "#5981b5" }}
             className="book-button"
             variant="contained"
             color="primary"
